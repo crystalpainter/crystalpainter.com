@@ -122,7 +122,7 @@ ul {
     text-indent: 5px;
 }
 
-img[src~="thumb"] {
+img[src~=thumb] {
     max-height: 200px !important;
     max-width: 300px !important;
 }
