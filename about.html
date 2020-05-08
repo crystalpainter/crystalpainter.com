@@ -16,14 +16,8 @@
       type="image/png"
     />
 
-    <meta
-      http-equiv="X-Wix-Meta-Site-Id"
-      content="21a50e84-2354-43ec-9ae9-85eabcf94339"
-    />
-    <meta
-      http-equiv="X-Wix-Application-Instance-Id"
-      content="8bb3ea5d-68a4-4704-bdf3-afb0a2bc5977"
-    />
+    <meta http-equiv="X-Wix-Meta-Site-Id" content="21a50e84-2354-43ec-9ae9-85eabcf94339" />
+    <meta http-equiv="X-Wix-Application-Instance-Id" content="8bb3ea5d-68a4-4704-bdf3-afb0a2bc5977" />
 
     <meta http-equiv="X-Wix-Published-Version" content="82" />
 
@@ -31,11 +25,7 @@
 
     <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
 
-    <meta
-      id="wixMobileViewport"
-      name="viewport"
-      content="width=980, user-scalable=yes"
-    />
+    <meta id="wixMobileViewport" name="viewport" content="width=980, user-scalable=yes" />
 
     <style id="viewerMainStyle">
       a,
@@ -274,18 +264,11 @@
         overflow: hidden;
       }
 
-      html.device-mobile-optimized.media-zoom-mode
-        > body
-        > #SITE_CONTAINER
-        > .noop {
+      html.device-mobile-optimized.media-zoom-mode > body > #SITE_CONTAINER > .noop {
         height: 100%;
       }
 
-      html.device-mobile-optimized.media-zoom-mode
-        > body
-        > #SITE_CONTAINER
-        > .noop
-        > .siteAspectsContainer {
+      html.device-mobile-optimized.media-zoom-mode > body > #SITE_CONTAINER > .noop > .siteAspectsContainer {
         height: 100%;
         z-index: 1005;
       }
@@ -328,10 +311,7 @@
         overflow-y: hidden;
       }
 
-      body.device-mobile-non-optimized
-        #SITE_CONTAINER
-        > :not(.mobile-non-optimized-overflow)
-        .SITE_ROOT {
+      body.device-mobile-non-optimized #SITE_CONTAINER > :not(.mobile-non-optimized-overflow) .SITE_ROOT {
         overflow-x: hidden;
         overflow-y: auto;
       }
@@ -372,8 +352,7 @@
         height: auto !important;
       }
 
-      body.fullScreenMode-scrollable.device-mobile-optimized
-        #masterPage.mesh-layout {
+      body.fullScreenMode-scrollable.device-mobile-optimized #masterPage.mesh-layout {
         height: 0 !important;
       }
 
@@ -693,22 +672,8 @@
         left: 0;
         right: 0;
         content: "";
-        background: -webkit-repeating-linear-gradient(
-          135deg,
-          transparent,
-          transparent 49%,
-          #2b5672 40%,
-          #2b5672 40%,
-          transparent 51%
-        );
-        background: repeating-linear-gradient(
-          -45deg,
-          transparent,
-          transparent 49%,
-          #2b5672 40%,
-          #2b5672 40%,
-          transparent 51%
-        );
+        background: -webkit-repeating-linear-gradient(135deg, transparent, transparent 49%, #2b5672 40%, #2b5672 40%, transparent 51%);
+        background: repeating-linear-gradient(-45deg, transparent, transparent 49%, #2b5672 40%, #2b5672 40%, transparent 51%);
         background-size: 6px 6px;
         background-repeat: repeat;
       }
@@ -764,9 +729,7 @@
       }
 
       .visual-focus-on .focus-ring:not(.has-custom-focus):focus,
-      .visual-focus-on
-        .focus-ring:not(.has-custom-focus):focus
-        ~ .wixSdkShowFocusOnSibling {
+      .visual-focus-on .focus-ring:not(.has-custom-focus):focus ~ .wixSdkShowFocusOnSibling {
         box-shadow: 0 0 0 1px #fff, 0 0 0 3px #116dff;
         z-index: 999;
       }
@@ -796,40 +759,34 @@
       #masterPage.mesh-layout[data-mesh-layout="grid"] #SITE_FOOTER-placeholder,
       #masterPage.mesh-layout[data-mesh-layout="grid"] #SITE_HEADER,
       #masterPage.mesh-layout[data-mesh-layout="grid"] #SITE_HEADER-placeholder,
-      #masterPage.mesh-layout[data-mesh-layout="grid"]
-        #SOSP_CONTAINER_CUSTOM_ID[data-state~="mobileView"],
+      #masterPage.mesh-layout[data-mesh-layout="grid"] #SOSP_CONTAINER_CUSTOM_ID[data-state~="mobileView"],
       #masterPage.mesh-layout[data-mesh-layout="grid"] #soapAfterPagesContainer,
-      #masterPage.mesh-layout[data-mesh-layout="grid"]
-        #soapBeforePagesContainer {
+      #masterPage.mesh-layout[data-mesh-layout="grid"] #soapBeforePagesContainer {
         -ms-grid-column: 1;
         -ms-grid-row-align: start;
         -ms-grid-column-align: start;
       }
 
       #masterPage.mesh-layout[data-mesh-layout="grid"] #SITE_HEADER,
-      #masterPage.mesh-layout[data-mesh-layout="grid"]
-        #SITE_HEADER-placeholder {
+      #masterPage.mesh-layout[data-mesh-layout="grid"] #SITE_HEADER-placeholder {
         -ms-grid-row: 1;
         grid-area: 1/1/2/2;
       }
 
-      #masterPage.mesh-layout[data-mesh-layout="grid"]
-        #SOSP_CONTAINER_CUSTOM_ID[data-state~="mobileView"] {
+      #masterPage.mesh-layout[data-mesh-layout="grid"] #SOSP_CONTAINER_CUSTOM_ID[data-state~="mobileView"] {
         -ms-grid-row: 2;
         grid-area: 2/1/3/2;
       }
 
       #masterPage.mesh-layout[data-mesh-layout="grid"] #PAGES_CONTAINER,
       #masterPage.mesh-layout[data-mesh-layout="grid"] #soapAfterPagesContainer,
-      #masterPage.mesh-layout[data-mesh-layout="grid"]
-        #soapBeforePagesContainer {
+      #masterPage.mesh-layout[data-mesh-layout="grid"] #soapBeforePagesContainer {
         -ms-grid-row: 3;
         grid-area: 3/1/4/2;
       }
 
       #masterPage.mesh-layout[data-mesh-layout="grid"] #soapAfterPagesContainer,
-      #masterPage.mesh-layout[data-mesh-layout="grid"]
-        #soapBeforePagesContainer {
+      #masterPage.mesh-layout[data-mesh-layout="grid"] #soapBeforePagesContainer {
         width: 100%;
       }
 
@@ -843,16 +800,13 @@
       }
 
       #masterPage.mesh-layout[data-mesh-layout="grid"] #SITE_FOOTER,
-      #masterPage.mesh-layout[data-mesh-layout="grid"]
-        #SITE_FOOTER-placeholder {
+      #masterPage.mesh-layout[data-mesh-layout="grid"] #SITE_FOOTER-placeholder {
         -ms-grid-row: 4;
         grid-area: 4/1/5/2;
       }
 
-      #masterPage.mesh-layout[data-mesh-layout="grid"]
-        #PAGES_CONTAINERcenteredContent,
-      #masterPage.mesh-layout[data-mesh-layout="grid"]
-        #PAGES_CONTAINERinlineContent,
+      #masterPage.mesh-layout[data-mesh-layout="grid"] #PAGES_CONTAINERcenteredContent,
+      #masterPage.mesh-layout[data-mesh-layout="grid"] #PAGES_CONTAINERinlineContent,
       #masterPage.mesh-layout[data-mesh-layout="grid"] #SITE_PAGES {
         height: 100%;
       }
@@ -864,8 +818,7 @@
       #masterPage.mesh-layout #PAGES_CONTAINER,
       #masterPage.mesh-layout #SITE_FOOTER,
       #masterPage.mesh-layout #SITE_HEADER,
-      #masterPage.mesh-layout
-        #SOSP_CONTAINER_CUSTOM_ID[data-state~="mobileView"],
+      #masterPage.mesh-layout #SOSP_CONTAINER_CUSTOM_ID[data-state~="mobileView"],
       #masterPage.mesh-layout #masterPageinlineContent {
         position: relative;
       }
@@ -875,15 +828,11 @@
         display: none;
       }
 
-      #masterPage.mesh-layout
-        #SITE_HEADER[data-state~="fixedPosition"]
-        ~ #SITE_HEADER-placeholder {
+      #masterPage.mesh-layout #SITE_HEADER[data-state~="fixedPosition"] ~ #SITE_HEADER-placeholder {
         display: block;
       }
 
-      #masterPage.mesh-layout
-        #SITE_FOOTER[data-state~="fixedPosition"]
-        ~ #SITE_FOOTER-placeholder {
+      #masterPage.mesh-layout #SITE_FOOTER[data-state~="fixedPosition"] ~ #SITE_FOOTER-placeholder {
         display: block;
       }
 
@@ -946,13 +895,11 @@
           Object.defineProperty(window, "web3", {
             configurable: true,
             set: function (val) {
-              if (!window.__disableDappDetectionInsertion)
-                __insertDappDetected();
+              if (!window.__disableDappDetectionInsertion) __insertDappDetected();
               oldWeb3 = val;
             },
             get: function () {
-              if (!window.__disableDappDetectionInsertion)
-                __insertDappDetected();
+              if (!window.__disableDappDetectionInsertion) __insertDappDetected();
               return oldWeb3;
             },
           });
@@ -967,32 +914,27 @@
       <div>
         <style type="text/css" data-styleid="theme_fonts">
           .font_0 {
-            font: normal normal bold 18px/1.4em arial, "ｍｓ ｐゴシック",
-              "ms pgothic", "돋움", dotum, helvetica, sans-serif;
+            font: normal normal bold 18px/1.4em arial, "ｍｓ ｐゴシック", "ms pgothic", "돋움", dotum, helvetica, sans-serif;
             color: #2f2e2e;
           }
 
           .font_1 {
-            font: normal normal normal 16px/1.4em din-next-w01-light,
-              din-next-w02-light, din-next-w10-light, sans-serif;
+            font: normal normal normal 16px/1.4em din-next-w01-light, din-next-w02-light, din-next-w10-light, sans-serif;
             color: #605e5e;
           }
 
           .font_2 {
-            font: normal normal bold 18px/1.4em arial, "ｍｓ ｐゴシック",
-              "ms pgothic", "돋움", dotum, helvetica, sans-serif;
+            font: normal normal bold 18px/1.4em arial, "ｍｓ ｐゴシック", "ms pgothic", "돋움", dotum, helvetica, sans-serif;
             color: #000000;
           }
 
           .font_3 {
-            font: normal normal normal 90px/1.4em "arial black", arial-w01-black,
-              arial-w02-black, "arial-w10 black", sans-serif;
+            font: normal normal normal 90px/1.4em "arial black", arial-w01-black, arial-w02-black, "arial-w10 black", sans-serif;
             color: #2f2e2e;
           }
 
           .font_4 {
-            font: normal normal normal 28px/1.4em arial, "ｍｓ ｐゴシック",
-              "ms pgothic", "돋움", dotum, helvetica, sans-serif;
+            font: normal normal normal 28px/1.4em arial, "ｍｓ ｐゴシック", "ms pgothic", "돋움", dotum, helvetica, sans-serif;
             color: #000000;
           }
 
@@ -1017,14 +959,12 @@
           }
 
           .font_9 {
-            font: normal normal normal 14px/1.4em arial, "ｍｓ ｐゴシック",
-              "ms pgothic", "돋움", dotum, helvetica, sans-serif;
+            font: normal normal normal 14px/1.4em arial, "ｍｓ ｐゴシック", "ms pgothic", "돋움", dotum, helvetica, sans-serif;
             color: #2f2e2e;
           }
 
           .font_10 {
-            font: normal normal normal 12px/1.4em din-next-w01-light,
-              din-next-w02-light, din-next-w10-light, sans-serif;
+            font: normal normal normal 12px/1.4em din-next-w01-light, din-next-w02-light, din-next-w10-light, sans-serif;
             color: #605e5e;
           }
         </style>
@@ -1361,9 +1301,7 @@
             left: 0;
           }
 
-          .pc1[data-is-absolute-layout="true"]
-            > .pc1centeredContent
-            > .pc1inlineContent {
+          .pc1[data-is-absolute-layout="true"] > .pc1centeredContent > .pc1inlineContent {
             position: absolute;
             top: 0;
             right: 0;
@@ -1449,9 +1387,7 @@
             left: 0;
           }
 
-          .fc2[data-is-absolute-layout="true"]
-            > .fc2centeredContent
-            > .fc2inlineContent {
+          .fc2[data-is-absolute-layout="true"] > .fc2centeredContent > .fc2inlineContent {
             position: absolute;
             top: 0;
             right: 0;
@@ -1513,8 +1449,7 @@
             border-radius: 0;
           }
 
-          .style-im3g1qvp[data-is-absolute-layout="true"]
-            > .style-im3g1qvpcenteredContent {
+          .style-im3g1qvp[data-is-absolute-layout="true"] > .style-im3g1qvpcenteredContent {
             position: absolute;
             top: 0;
             right: 0;
@@ -1522,9 +1457,7 @@
             left: 0;
           }
 
-          .style-im3g1qvp[data-is-absolute-layout="true"]
-            > .style-im3g1qvpcenteredContent
-            > .style-im3g1qvpinlineContent {
+          .style-im3g1qvp[data-is-absolute-layout="true"] > .style-im3g1qvpcenteredContent > .style-im3g1qvpinlineContent {
             position: absolute;
             top: 0;
             right: 0;
@@ -1544,8 +1477,7 @@
             left: 0;
           }
 
-          .style-jjnykzxg[data-is-absolute-layout="true"]
-            > .style-jjnykzxginlineContent {
+          .style-jjnykzxg[data-is-absolute-layout="true"] > .style-jjnykzxginlineContent {
             position: absolute;
             top: 0;
             right: 0;
@@ -1770,9 +1702,7 @@
 
           .style-jz6weo14unavailableMessageOverlaytextContainer {
             color: #373737;
-            font-family: "Helvetica Neue", "HelveticaNeueW01-55Roma",
-              "HelveticaNeueW02-55Roma", "HelveticaNeueW10-55Roma", Helvetica,
-              Arial, sans-serif;
+            font-family: "Helvetica Neue", "HelveticaNeueW01-55Roma", "HelveticaNeueW02-55Roma", "HelveticaNeueW10-55Roma", Helvetica, Arial, sans-serif;
             font-size: 14px;
             display: inline-block;
             vertical-align: middle;
@@ -1800,14 +1730,11 @@
           }
 
           .style-jz6weo14unavailableMessageOverlaytextTitle {
-            font-family: "Helvetica Neue", "HelveticaNeueW01-55Roma",
-              "HelveticaNeueW02-55Roma", "HelveticaNeueW10-55Roma", Helvetica,
-              Arial, sans-serif;
+            font-family: "Helvetica Neue", "HelveticaNeueW01-55Roma", "HelveticaNeueW02-55Roma", "HelveticaNeueW10-55Roma", Helvetica, Arial, sans-serif;
             display: none;
           }
 
-          .style-jz6weo14unavailableMessageOverlay[data-state~="hideIframe"]
-            .style-jz6weo14unavailableMessageOverlay_buttons {
+          .style-jz6weo14unavailableMessageOverlay[data-state~="hideIframe"] .style-jz6weo14unavailableMessageOverlay_buttons {
             opacity: 1;
           }
 
@@ -1874,45 +1801,32 @@
             border-bottom: 0 solid transparent;
           }
 
-          .style-jz6whmua_itemHoverArea.style-jz6whmua_hover
-            > .style-jz6whmua_item,
-          .style-jz6whmua_itemHoverArea.style-jz6whmua_selected
-            > .style-jz6whmua_item,
-          .style-jz6whmua_itemHoverArea.style-jz6whmua_selectedContainer
-            > .style-jz6whmua_item {
+          .style-jz6whmua_itemHoverArea.style-jz6whmua_hover > .style-jz6whmua_item,
+          .style-jz6whmua_itemHoverArea.style-jz6whmua_selected > .style-jz6whmua_item,
+          .style-jz6whmua_itemHoverArea.style-jz6whmua_selectedContainer > .style-jz6whmua_item {
             transition: background-color 0.4s ease 0s;
           }
 
-          .style-jz6whmua_itemHoverArea.style-jz6whmua_hover
-            .style-jz6whmua_subMenu {
+          .style-jz6whmua_itemHoverArea.style-jz6whmua_hover .style-jz6whmua_subMenu {
             opacity: 1;
             display: block;
           }
 
-          .style-jz6whmua_itemHoverArea.style-jz6whmua_hover:not(.style-jz6whmua_noLink)
-            > .style-jz6whmua_item {
+          .style-jz6whmua_itemHoverArea.style-jz6whmua_hover:not(.style-jz6whmua_noLink) > .style-jz6whmua_item {
             background-color: rgba(255, 255, 255, 1);
           }
 
-          .style-jz6whmua_itemHoverArea.style-jz6whmua_hover:not(.style-jz6whmua_noLink)
-            > .style-jz6whmua_item
-            > .style-jz6whmua_label {
+          .style-jz6whmua_itemHoverArea.style-jz6whmua_hover:not(.style-jz6whmua_noLink) > .style-jz6whmua_item > .style-jz6whmua_label {
             color: #605e5e;
           }
 
-          .style-jz6whmua_itemHoverArea.style-jz6whmua_selected
-            > .style-jz6whmua_item,
-          .style-jz6whmua_itemHoverArea.style-jz6whmua_selectedContainer
-            > .style-jz6whmua_item {
+          .style-jz6whmua_itemHoverArea.style-jz6whmua_selected > .style-jz6whmua_item,
+          .style-jz6whmua_itemHoverArea.style-jz6whmua_selectedContainer > .style-jz6whmua_item {
             background-color: rgba(255, 255, 255, 1);
           }
 
-          .style-jz6whmua_itemHoverArea.style-jz6whmua_selected
-            > .style-jz6whmua_item
-            > .style-jz6whmua_label,
-          .style-jz6whmua_itemHoverArea.style-jz6whmua_selectedContainer
-            > .style-jz6whmua_item
-            > .style-jz6whmua_label {
+          .style-jz6whmua_itemHoverArea.style-jz6whmua_selected > .style-jz6whmua_item > .style-jz6whmua_label,
+          .style-jz6whmua_itemHoverArea.style-jz6whmua_selectedContainer > .style-jz6whmua_item > .style-jz6whmua_label {
             color: #f28241;
           }
 
@@ -1955,18 +1869,12 @@
             font: normal normal normal 16px/1.4em "open sans", sans-serif;
           }
 
-          .style-jz6whmua_subMenu
-            > .style-jz6whmua_itemHoverArea:first-child
-            > .style-jz6whmua_item,
-          .style-jz6whmua_subMenu
-            > .style-jz6whmua_itemHoverArea:first-child:last-child
-            > .style-jz6whmua_item {
+          .style-jz6whmua_subMenu > .style-jz6whmua_itemHoverArea:first-child > .style-jz6whmua_item,
+          .style-jz6whmua_subMenu > .style-jz6whmua_itemHoverArea:first-child:last-child > .style-jz6whmua_item {
             border-radius: 0;
           }
 
-          .style-jz6whmua_subMenu
-            > .style-jz6whmua_itemHoverArea:first-child
-            > .style-jz6whmua_item {
+          .style-jz6whmua_subMenu > .style-jz6whmua_itemHoverArea:first-child > .style-jz6whmua_item {
             border-bottom-left-radius: 0;
             border-bottom-right-radius: 0;
           }
@@ -1975,9 +1883,7 @@
             border-bottom: 0 solid transparent;
           }
 
-          .style-jz6whmua_subMenu
-            > .style-jz6whmua_itemHoverArea:last-child
-            > .style-jz6whmua_item {
+          .style-jz6whmua_subMenu > .style-jz6whmua_itemHoverArea:last-child > .style-jz6whmua_item {
             border-radius: 0;
             border-top-left-radius: 0;
             border-top-right-radius: 0;
@@ -2000,76 +1906,61 @@
             text-align: left;
           }
 
-          .style-jz6whmua[data-state~="items-align-center"]
-            .style-jz6whmua_item {
+          .style-jz6whmua[data-state~="items-align-center"] .style-jz6whmua_item {
             text-align: center;
           }
 
-          .style-jz6whmua[data-state~="items-align-right"]
-            .style-jz6whmua_item {
+          .style-jz6whmua[data-state~="items-align-right"] .style-jz6whmua_item {
             text-align: right;
           }
 
-          .style-jz6whmua[data-state~="subItems-align-left"]
-            .style-jz6whmua_subMenu
-            > .style-jz6whmua_item {
+          .style-jz6whmua[data-state~="subItems-align-left"] .style-jz6whmua_subMenu > .style-jz6whmua_item {
             text-align: left;
             padding-left: 30px;
             padding-right: 30px;
           }
 
-          .style-jz6whmua[data-state~="subItems-align-center"]
-            .style-jz6whmua_subMenu
-            > .style-jz6whmua_item {
+          .style-jz6whmua[data-state~="subItems-align-center"] .style-jz6whmua_subMenu > .style-jz6whmua_item {
             text-align: center;
             padding-left: 30px;
             padding-right: 30px;
           }
 
-          .style-jz6whmua[data-state~="subItems-align-right"]
-            .style-jz6whmua_subMenu
-            > .style-jz6whmua_item {
+          .style-jz6whmua[data-state~="subItems-align-right"] .style-jz6whmua_subMenu > .style-jz6whmua_item {
             text-align: right;
             padding-left: 30px;
             padding-right: 30px;
           }
 
-          .style-jz6whmua[data-state~="subMenuOpenSide-right"]
-            .style-jz6whmua_subMenu {
+          .style-jz6whmua[data-state~="subMenuOpenSide-right"] .style-jz6whmua_subMenu {
             left: 100%;
             float: left;
             margin-left: 0px;
           }
 
-          .style-jz6whmua[data-state~="subMenuOpenSide-right"]
-            .style-jz6whmua_subMenu:before {
+          .style-jz6whmua[data-state~="subMenuOpenSide-right"] .style-jz6whmua_subMenu:before {
             right: 100%;
           }
 
-          .style-jz6whmua[data-state~="subMenuOpenSide-left"]
-            .style-jz6whmua_subMenu {
+          .style-jz6whmua[data-state~="subMenuOpenSide-left"] .style-jz6whmua_subMenu {
             right: 100%;
             float: right;
             margin-right: 0px;
           }
 
-          .style-jz6whmua[data-state~="subMenuOpenSide-left"]
-            .style-jz6whmua_subMenu:before {
+          .style-jz6whmua[data-state~="subMenuOpenSide-left"] .style-jz6whmua_subMenu:before {
             left: 100%;
           }
 
-          .style-jz6whmua[data-open-direction~="subMenuOpenDir-down"]
-            .style-jz6whmua_subMenu {
+          .style-jz6whmua[data-open-direction~="subMenuOpenDir-down"] .style-jz6whmua_subMenu {
             top: calc(-1 * 1px);
           }
 
-          .style-jz6whmua[data-open-direction~="subMenuOpenDir-up"]
-            .style-jz6whmua_subMenu {
+          .style-jz6whmua[data-open-direction~="subMenuOpenDir-up"] .style-jz6whmua_subMenu {
             bottom: calc(-1 * 1px);
           }
 
-          .style-jz6whmuamenuContainer_with-validation-indication
-            select:not([data-preview~="focus"]):invalid {
+          .style-jz6whmuamenuContainer_with-validation-indication select:not([data-preview~="focus"]):invalid {
             border-width: 2px;
             border-style: solid;
             border-color: rgba(249, 249, 249, 1);
@@ -2117,13 +2008,11 @@
             background-color: #ffffff;
           }
 
-          .style-jz6whmuamenuContainer
-            select.style-jz6whmuamenuContainer_placeholder-style {
+          .style-jz6whmuamenuContainer select.style-jz6whmuamenuContainer_placeholder-style {
             color: #2f2e2e;
           }
 
-          .style-jz6whmuamenuContainer
-            select.style-jz6whmuamenuContainer_extended-placeholder-style {
+          .style-jz6whmuamenuContainer select.style-jz6whmuamenuContainer_extended-placeholder-style {
             color: #888888;
           }
 
@@ -2140,57 +2029,42 @@
             background: transparent;
           }
 
-          .style-jz6whmuamenuContainer
-            select:not(.style-jz6whmuamenuContainer_mobileCollection):hover,
-          .style-jz6whmuamenuContainer
-            select:not(.style-jz6whmuamenuContainer_mobileCollection)[data-preview~="hover"] {
+          .style-jz6whmuamenuContainer select:not(.style-jz6whmuamenuContainer_mobileCollection):hover,
+          .style-jz6whmuamenuContainer select:not(.style-jz6whmuamenuContainer_mobileCollection)[data-preview~="hover"] {
             border-width: 2px;
             border-style: solid;
             border-color: rgba(249, 249, 249, 1);
             background-color: rgba(255, 255, 255, 1);
           }
 
-          .style-jz6whmuamenuContainer
-            select:not(.style-jz6whmuamenuContainer_mobileCollection):focus,
-          .style-jz6whmuamenuContainer
-            select:not(.style-jz6whmuamenuContainer_mobileCollection)[data-preview~="focus"] {
+          .style-jz6whmuamenuContainer select:not(.style-jz6whmuamenuContainer_mobileCollection):focus,
+          .style-jz6whmuamenuContainer select:not(.style-jz6whmuamenuContainer_mobileCollection)[data-preview~="focus"] {
             border-width: 2px;
             border-style: solid;
             border-color: rgba(249, 249, 249, 1);
             background-color: rgba(255, 255, 255, 1);
           }
 
-          .style-jz6whmuamenuContainer
-            select:not(.style-jz6whmuamenuContainer_mobileCollection)[data-error="true"],
-          .style-jz6whmuamenuContainer
-            select:not(.style-jz6whmuamenuContainer_mobileCollection)[data-preview~="error"] {
+          .style-jz6whmuamenuContainer select:not(.style-jz6whmuamenuContainer_mobileCollection)[data-error="true"],
+          .style-jz6whmuamenuContainer select:not(.style-jz6whmuamenuContainer_mobileCollection)[data-preview~="error"] {
             border-width: 2px;
             border-style: solid;
             border-color: rgba(249, 249, 249, 1);
             background-color: rgba(255, 255, 255, 1);
           }
 
-          .style-jz6whmuamenuContainer
-            select:not(.style-jz6whmuamenuContainer_mobileCollection):disabled,
-          .style-jz6whmuamenuContainer
-            select:not(.style-jz6whmuamenuContainer_mobileCollection)[data-disabled="true"],
-          .style-jz6whmuamenuContainer
-            select:not(.style-jz6whmuamenuContainer_mobileCollection)[data-preview~="disabled"] {
+          .style-jz6whmuamenuContainer select:not(.style-jz6whmuamenuContainer_mobileCollection):disabled,
+          .style-jz6whmuamenuContainer select:not(.style-jz6whmuamenuContainer_mobileCollection)[data-disabled="true"],
+          .style-jz6whmuamenuContainer select:not(.style-jz6whmuamenuContainer_mobileCollection)[data-preview~="disabled"] {
             border-width: 2px;
             border-color: rgba(204, 204, 204, 1);
             color: #ffffff;
             background-color: rgba(204, 204, 204, 1);
           }
 
-          .style-jz6whmuamenuContainer
-            select:not(.style-jz6whmuamenuContainer_mobileCollection):disabled
-            + .style-jz6whmuamenuContainerarrow,
-          .style-jz6whmuamenuContainer
-            select:not(.style-jz6whmuamenuContainer_mobileCollection)[data-disabled="true"]
-            + .style-jz6whmuamenuContainerarrow,
-          .style-jz6whmuamenuContainer
-            select:not(.style-jz6whmuamenuContainer_mobileCollection)[data-preview~="disabled"]
-            + .style-jz6whmuamenuContainerarrow {
+          .style-jz6whmuamenuContainer select:not(.style-jz6whmuamenuContainer_mobileCollection):disabled + .style-jz6whmuamenuContainerarrow,
+          .style-jz6whmuamenuContainer select:not(.style-jz6whmuamenuContainer_mobileCollection)[data-disabled="true"] + .style-jz6whmuamenuContainerarrow,
+          .style-jz6whmuamenuContainer select:not(.style-jz6whmuamenuContainer_mobileCollection)[data-preview~="disabled"] + .style-jz6whmuamenuContainerarrow {
             border-width: 2px;
             border-color: rgba(204, 204, 204, 1);
             color: #ffffff;
@@ -2214,14 +2088,11 @@
             align-items: center;
           }
 
-          .style-jz6whmuamenuContainerarrow
-            .style-jz6whmuamenuContainer_svg_container {
+          .style-jz6whmuamenuContainerarrow .style-jz6whmuamenuContainer_svg_container {
             width: 12px;
           }
 
-          .style-jz6whmuamenuContainerarrow
-            .style-jz6whmuamenuContainer_svg_container
-            svg {
+          .style-jz6whmuamenuContainerarrow .style-jz6whmuamenuContainer_svg_container svg {
             height: 100%;
             fill: rgba(204, 204, 204, 1);
           }
@@ -2230,33 +2101,18 @@
             text-align-last: left;
           }
 
-          .style-jz6whmuamenuContainer_left-direction
-            .style-jz6whmuamenuContainerarrow,
-          .style-jz6whmuamenuContainer_left-direction
-            select:hover
-            + .style-jz6whmuamenuContainerarrow,
-          .style-jz6whmuamenuContainer_left-direction
-            select[data-preview~="hover"]
-            + .style-jz6whmuamenuContainerarrow,
-          .style-jz6whmuamenuContainer_left-direction
-            select:focus
-            + .style-jz6whmuamenuContainerarrow,
-          .style-jz6whmuamenuContainer_left-direction
-            select[data-preview~="focus"]
-            + .style-jz6whmuamenuContainerarrow,
-          .style-jz6whmuamenuContainer_left-direction[data-preview~="focus"]
-            .style-jz6whmuamenuContainerarrow,
-          .style-jz6whmuamenuContainer_left-direction
-            select[data-error="true"]
-            + .style-jz6whmuamenuContainerarrow,
-          .style-jz6whmuamenuContainer_left-direction
-            select[data-preview~="error"]
-            + .style-jz6whmuamenuContainerarrow {
+          .style-jz6whmuamenuContainer_left-direction .style-jz6whmuamenuContainerarrow,
+          .style-jz6whmuamenuContainer_left-direction select:hover + .style-jz6whmuamenuContainerarrow,
+          .style-jz6whmuamenuContainer_left-direction select[data-preview~="hover"] + .style-jz6whmuamenuContainerarrow,
+          .style-jz6whmuamenuContainer_left-direction select:focus + .style-jz6whmuamenuContainerarrow,
+          .style-jz6whmuamenuContainer_left-direction select[data-preview~="focus"] + .style-jz6whmuamenuContainerarrow,
+          .style-jz6whmuamenuContainer_left-direction[data-preview~="focus"] .style-jz6whmuamenuContainerarrow,
+          .style-jz6whmuamenuContainer_left-direction select[data-error="true"] + .style-jz6whmuamenuContainerarrow,
+          .style-jz6whmuamenuContainer_left-direction select[data-preview~="error"] + .style-jz6whmuamenuContainerarrow {
             border-left: 0;
           }
 
-          .style-jz6whmuamenuContainer_left-direction
-            .style-jz6whmuamenuContainerarrow {
+          .style-jz6whmuamenuContainer_left-direction .style-jz6whmuamenuContainerarrow {
             right: 0;
           }
 
@@ -2265,33 +2121,18 @@
             direction: rtl;
           }
 
-          .style-jz6whmuamenuContainer_right-direction
-            .style-jz6whmuamenuContainerarrow,
-          .style-jz6whmuamenuContainer_right-direction
-            select:hover
-            + .style-jz6whmuamenuContainerarrow,
-          .style-jz6whmuamenuContainer_right-direction
-            select[data-preview~="hover"]
-            + .style-jz6whmuamenuContainerarrow,
-          .style-jz6whmuamenuContainer_right-direction
-            select:focus
-            + .style-jz6whmuamenuContainerarrow,
-          .style-jz6whmuamenuContainer_right-direction
-            select[data-preview~="focus"]
-            + .style-jz6whmuamenuContainerarrow,
-          .style-jz6whmuamenuContainer_right-direction[data-preview~="focus"]
-            .style-jz6whmuamenuContainerarrow,
-          .style-jz6whmuamenuContainer_right-direction
-            select[data-error="true"]
-            + .style-jz6whmuamenuContainerarrow,
-          .style-jz6whmuamenuContainer_right-direction
-            select[data-preview~="error"]
-            + .style-jz6whmuamenuContainerarrow {
+          .style-jz6whmuamenuContainer_right-direction .style-jz6whmuamenuContainerarrow,
+          .style-jz6whmuamenuContainer_right-direction select:hover + .style-jz6whmuamenuContainerarrow,
+          .style-jz6whmuamenuContainer_right-direction select[data-preview~="hover"] + .style-jz6whmuamenuContainerarrow,
+          .style-jz6whmuamenuContainer_right-direction select:focus + .style-jz6whmuamenuContainerarrow,
+          .style-jz6whmuamenuContainer_right-direction select[data-preview~="focus"] + .style-jz6whmuamenuContainerarrow,
+          .style-jz6whmuamenuContainer_right-direction[data-preview~="focus"] .style-jz6whmuamenuContainerarrow,
+          .style-jz6whmuamenuContainer_right-direction select[data-error="true"] + .style-jz6whmuamenuContainerarrow,
+          .style-jz6whmuamenuContainer_right-direction select[data-preview~="error"] + .style-jz6whmuamenuContainerarrow {
             border-right: 0;
           }
 
-          .style-jz6whmuamenuContainer_right-direction
-            .style-jz6whmuamenuContainerarrow {
+          .style-jz6whmuamenuContainer_right-direction .style-jz6whmuamenuContainerarrow {
             left: 0;
           }
 
@@ -2300,33 +2141,18 @@
             text-align-last: center;
           }
 
-          .style-jz6whmuamenuContainer_center-direction
-            .style-jz6whmuamenuContainerarrow,
-          .style-jz6whmuamenuContainer_center-direction
-            select:hover
-            + .style-jz6whmuamenuContainerarrow,
-          .style-jz6whmuamenuContainer_center-direction
-            select[data-preview~="hover"]
-            + .style-jz6whmuamenuContainerarrow,
-          .style-jz6whmuamenuContainer_center-direction
-            select:focus
-            + .style-jz6whmuamenuContainerarrow,
-          .style-jz6whmuamenuContainer_center-direction
-            select[data-preview~="focus"]
-            + .style-jz6whmuamenuContainerarrow,
-          .style-jz6whmuamenuContainer_center-direction[data-preview~="focus"]
-            .style-jz6whmuamenuContainerarrow,
-          .style-jz6whmuamenuContainer_center-direction
-            select[data-error="true"]
-            + .style-jz6whmuamenuContainerarrow,
-          .style-jz6whmuamenuContainer_center-direction
-            select[data-preview~="error"]
-            + .style-jz6whmuamenuContainerarrow {
+          .style-jz6whmuamenuContainer_center-direction .style-jz6whmuamenuContainerarrow,
+          .style-jz6whmuamenuContainer_center-direction select:hover + .style-jz6whmuamenuContainerarrow,
+          .style-jz6whmuamenuContainer_center-direction select[data-preview~="hover"] + .style-jz6whmuamenuContainerarrow,
+          .style-jz6whmuamenuContainer_center-direction select:focus + .style-jz6whmuamenuContainerarrow,
+          .style-jz6whmuamenuContainer_center-direction select[data-preview~="focus"] + .style-jz6whmuamenuContainerarrow,
+          .style-jz6whmuamenuContainer_center-direction[data-preview~="focus"] .style-jz6whmuamenuContainerarrow,
+          .style-jz6whmuamenuContainer_center-direction select[data-error="true"] + .style-jz6whmuamenuContainerarrow,
+          .style-jz6whmuamenuContainer_center-direction select[data-preview~="error"] + .style-jz6whmuamenuContainerarrow {
             border-left: 0;
           }
 
-          .style-jz6whmuamenuContainer_center-direction
-            .style-jz6whmuamenuContainerarrow {
+          .style-jz6whmuamenuContainer_center-direction .style-jz6whmuamenuContainerarrow {
             right: 0;
           }
 
@@ -2334,10 +2160,7 @@
             border: 0;
           }
 
-          .style-jz6whmuamenuContainer_mobileMenuContainer
-            .style-jz6whmuamenuContainerarrow
-            .style-jz6whmuamenuContainer_svg_container
-            .style-jz6whmuamenuContainericon {
+          .style-jz6whmuamenuContainer_mobileMenuContainer .style-jz6whmuamenuContainerarrow .style-jz6whmuamenuContainer_svg_container .style-jz6whmuamenuContainericon {
             fill: #2f2e2e;
           }
 
@@ -2349,8 +2172,7 @@
             line-height: 1;
           }
 
-          .style-jz6whmuamenuContainer_required
-            .style-jz6whmuamenuContainerlabel::after {
+          .style-jz6whmuamenuContainer_required .style-jz6whmuamenuContainerlabel::after {
             content: " *";
             color: transparent;
           }
@@ -2453,18 +2275,14 @@
             z-index: 0;
           }
 
-          .style-k3o0dy6k[data-state~="autoplayOff"]
-            .style-k3o0dy6kautoplay
-            > span {
+          .style-k3o0dy6k[data-state~="autoplayOff"] .style-k3o0dy6kautoplay > span {
             border: 5px solid transparent;
             border-left: 5px solid #2f2e2e;
             width: 0;
             height: 0;
           }
 
-          .style-k3o0dy6k[data-state~="autoplayOn"]
-            .style-k3o0dy6kautoplay
-            > span {
+          .style-k3o0dy6k[data-state~="autoplayOn"] .style-k3o0dy6kautoplay > span {
             border-left: 2px solid #2f2e2e;
             border-right: 2px solid #2f2e2e;
             height: 10px;
@@ -2521,8 +2339,7 @@
             opacity: 1;
           }
 
-          .style-k3o0dy6k[data-text-alignment="right"]
-            .style-k3o0dy6kimageItempanel {
+          .style-k3o0dy6k[data-text-alignment="right"] .style-k3o0dy6kimageItempanel {
             padding-right: 10px;
             padding-left: 100px;
           }
@@ -2533,8 +2350,7 @@
             text-align: left;
           }
 
-          .style-k3o0dy6k[data-text-alignment="right"][data-state~="hidePlayButton"]
-            .style-k3o0dy6kautoplay {
+          .style-k3o0dy6k[data-text-alignment="right"][data-state~="hidePlayButton"] .style-k3o0dy6kautoplay {
             display: none;
           }
 
@@ -2582,43 +2398,35 @@
           }
 
           .style-k3o0dy6kimageItemdescription {
-            font: normal normal normal 14px/1.4em futura-lt-w01-light,
-              sans-serif;
+            font: normal normal normal 14px/1.4em futura-lt-w01-light, sans-serif;
             color: #2f2e2e;
           }
 
           .style-k3o0dy6kimageItemlink {
-            font: normal normal normal 14px/1.4em futura-lt-w01-light,
-              sans-serif;
+            font: normal normal normal 14px/1.4em futura-lt-w01-light, sans-serif;
             color: #2f2e2e;
           }
 
-          .style-k3o0dy6kimageItem[data-state~="link"]
-            .style-k3o0dy6kimageItemlink {
+          .style-k3o0dy6kimageItem[data-state~="link"] .style-k3o0dy6kimageItemlink {
             text-decoration: underline;
             cursor: pointer;
-            font: normal normal normal 14px/1.4em futura-lt-w01-light,
-              sans-serif;
+            font: normal normal normal 14px/1.4em futura-lt-w01-light, sans-serif;
             color: #2f2e2e;
           }
 
-          .style-k3o0dy6kimageItem[data-state~="showPanel"]
-            .style-k3o0dy6kimageItempanel {
+          .style-k3o0dy6kimageItem[data-state~="showPanel"] .style-k3o0dy6kimageItempanel {
             opacity: 1;
           }
 
-          .style-k3o0dy6kimageItem[data-state~="notShowPanel"]
-            .style-k3o0dy6kimageItempanel {
+          .style-k3o0dy6kimageItem[data-state~="notShowPanel"] .style-k3o0dy6kimageItempanel {
             opacity: 0;
           }
 
-          .style-k3o0dy6kimageItem[data-state~="transOut"]
-            .style-k3o0dy6kimageItempanel {
+          .style-k3o0dy6kimageItem[data-state~="transOut"] .style-k3o0dy6kimageItempanel {
             opacity: 0;
           }
 
-          .style-k3o0dy6kimageItem[data-state~="transIn"]
-            .style-k3o0dy6kimageItempanel {
+          .style-k3o0dy6kimageItem[data-state~="transIn"] .style-k3o0dy6kimageItempanel {
             opacity: 0;
           }
 
@@ -2634,31 +2442,24 @@
           }
 
           .style-k3nzajoe[data-state~="shouldUseFlex"] .style-k3nzajoelink,
-          .style-k3nzajoe[data-state~="shouldUseFlex"]
-            .style-k3nzajoelabelwrapper {
+          .style-k3nzajoe[data-state~="shouldUseFlex"] .style-k3nzajoelabelwrapper {
             text-align: initial;
             display: flex;
             align-items: center;
           }
 
-          .style-k3nzajoe[data-state~="shouldUseFlex"][data-state~="center"]
-            .style-k3nzajoelink,
-          .style-k3nzajoe[data-state~="shouldUseFlex"][data-state~="center"]
-            .style-k3nzajoelabelwrapper {
+          .style-k3nzajoe[data-state~="shouldUseFlex"][data-state~="center"] .style-k3nzajoelink,
+          .style-k3nzajoe[data-state~="shouldUseFlex"][data-state~="center"] .style-k3nzajoelabelwrapper {
             justify-content: center;
           }
 
-          .style-k3nzajoe[data-state~="shouldUseFlex"][data-state~="left"]
-            .style-k3nzajoelink,
-          .style-k3nzajoe[data-state~="shouldUseFlex"][data-state~="left"]
-            .style-k3nzajoelabelwrapper {
+          .style-k3nzajoe[data-state~="shouldUseFlex"][data-state~="left"] .style-k3nzajoelink,
+          .style-k3nzajoe[data-state~="shouldUseFlex"][data-state~="left"] .style-k3nzajoelabelwrapper {
             justify-content: flex-start;
           }
 
-          .style-k3nzajoe[data-state~="shouldUseFlex"][data-state~="right"]
-            .style-k3nzajoelink,
-          .style-k3nzajoe[data-state~="shouldUseFlex"][data-state~="right"]
-            .style-k3nzajoelabelwrapper {
+          .style-k3nzajoe[data-state~="shouldUseFlex"][data-state~="right"] .style-k3nzajoelink,
+          .style-k3nzajoe[data-state~="shouldUseFlex"][data-state~="right"] .style-k3nzajoelabelwrapper {
             justify-content: flex-end;
           }
 
@@ -2693,22 +2494,16 @@
             cursor: pointer !important;
           }
 
-          .style-k3nzajoe[data-disabled="false"]:active[data-state~="mobile"]
-            .style-k3nzajoelink,
-          .style-k3nzajoe[data-disabled="false"]:hover[data-state~="desktop"]
-            .style-k3nzajoelink,
-          .style-k3nzajoe[data-disabled="false"][data-preview~="hover"]
-            .style-k3nzajoelink {
+          .style-k3nzajoe[data-disabled="false"]:active[data-state~="mobile"] .style-k3nzajoelink,
+          .style-k3nzajoe[data-disabled="false"]:hover[data-state~="desktop"] .style-k3nzajoelink,
+          .style-k3nzajoe[data-disabled="false"][data-preview~="hover"] .style-k3nzajoelink {
             background-color: rgba(242, 130, 65, 1);
             border-color: rgba(255, 255, 255, 1);
           }
 
-          .style-k3nzajoe[data-disabled="false"]:active[data-state~="mobile"]
-            .style-k3nzajoelabel,
-          .style-k3nzajoe[data-disabled="false"]:hover[data-state~="desktop"]
-            .style-k3nzajoelabel,
-          .style-k3nzajoe[data-disabled="false"][data-preview~="hover"]
-            .style-k3nzajoelabel {
+          .style-k3nzajoe[data-disabled="false"]:active[data-state~="mobile"] .style-k3nzajoelabel,
+          .style-k3nzajoe[data-disabled="false"]:hover[data-state~="desktop"] .style-k3nzajoelabel,
+          .style-k3nzajoe[data-disabled="false"][data-preview~="hover"] .style-k3nzajoelabel {
             color: #ffffff;
           }
 
@@ -2794,9 +2589,7 @@
 
           .s_DtaksTPAWidgetSkinunavailableMessageOverlaytextContainer {
             color: #373737;
-            font-family: "Helvetica Neue", "HelveticaNeueW01-55Roma",
-              "HelveticaNeueW02-55Roma", "HelveticaNeueW10-55Roma", Helvetica,
-              Arial, sans-serif;
+            font-family: "Helvetica Neue", "HelveticaNeueW01-55Roma", "HelveticaNeueW02-55Roma", "HelveticaNeueW10-55Roma", Helvetica, Arial, sans-serif;
             font-size: 14px;
             display: inline-block;
             vertical-align: middle;
@@ -2824,14 +2617,11 @@
           }
 
           .s_DtaksTPAWidgetSkinunavailableMessageOverlaytextTitle {
-            font-family: "Helvetica Neue", "HelveticaNeueW01-55Roma",
-              "HelveticaNeueW02-55Roma", "HelveticaNeueW10-55Roma", Helvetica,
-              Arial, sans-serif;
+            font-family: "Helvetica Neue", "HelveticaNeueW01-55Roma", "HelveticaNeueW02-55Roma", "HelveticaNeueW10-55Roma", Helvetica, Arial, sans-serif;
             display: none;
           }
 
-          .s_DtaksTPAWidgetSkinunavailableMessageOverlay[data-state~="hideIframe"]
-            .s_DtaksTPAWidgetSkinunavailableMessageOverlay_buttons {
+          .s_DtaksTPAWidgetSkinunavailableMessageOverlay[data-state~="hideIframe"] .s_DtaksTPAWidgetSkinunavailableMessageOverlay_buttons {
             opacity: 1;
           }
 
@@ -2841,57 +2631,17 @@
         </style>
       </div>
       <div class="noop visual-focus-on" style="position: relative;">
-        <div
-          id="SCROLL_TO_TOP"
-          tabindex="-1"
-          aria-label="top of page"
-          role="region"
-          style="height: 0;"
-        ></div>
+        <div id="SCROLL_TO_TOP" tabindex="-1" aria-label="top of page" role="region" style="height: 0;"></div>
         <div id="FONTS_CONTAINER"></div>
-        <div
-          id="SITE_BACKGROUND"
-          style="
-            height: 100%;
-            top: 0;
-            min-height: calc(100vh - 0px);
-            bottom: ;
-            left: ;
-            right: ;
-            position: ;
-          "
-          class="siteBackground"
-        >
-          <div
-            id="SITE_BACKGROUND_previous_noPrev"
-            data-position="absolute"
-            data-align=""
-            data-fitting=""
-            class="siteBackgroundprevious"
-          >
-            <div
-              id="SITE_BACKGROUNDpreviousImage"
-              class="siteBackgroundpreviousImage"
-            ></div>
-            <div
-              id="SITE_BACKGROUNDpreviousVideo"
-              class="siteBackgroundpreviousVideo"
-            ></div>
-            <div
-              id="SITE_BACKGROUND_previousOverlay_noPrev"
-              class="siteBackgroundpreviousOverlay"
-            ></div>
+        <div id="SITE_BACKGROUND" style="height: 100%; top: 0; min-height: calc(100vh - 0px); bottom: ; left: ; right: ; position: ;" class="siteBackground">
+          <div id="SITE_BACKGROUND_previous_noPrev" data-position="absolute" data-align="" data-fitting="" class="siteBackgroundprevious">
+            <div id="SITE_BACKGROUNDpreviousImage" class="siteBackgroundpreviousImage"></div>
+            <div id="SITE_BACKGROUNDpreviousVideo" class="siteBackgroundpreviousVideo"></div>
+            <div id="SITE_BACKGROUND_previousOverlay_noPrev" class="siteBackgroundpreviousOverlay"></div>
           </div>
           <div
             id="SITE_BACKGROUND_current_dupnj_desktop_bg"
-            style="
-              top: 0;
-              height: 100%;
-              width: 100%;
-              background-color: rgba(255, 255, 255, 1);
-              display: ;
-              position: absolute;
-            "
+            style="top: 0; height: 100%; width: 100%; background-color: rgba(255, 255, 255, 1); display: ; position: absolute;"
             data-position="absolute"
             data-align="top"
             data-fitting="fill"
@@ -2904,23 +2654,11 @@
               data-height="100%"
               class="siteBackgroundcurrentImage"
             ></div>
-            <div
-              id="SITE_BACKGROUNDcurrentVideo"
-              class="siteBackgroundcurrentVideo"
-            ></div>
-            <div
-              id="SITE_BACKGROUND_currentOverlay_dupnj_desktop_bg"
-              style="position: absolute; top: 0; width: 100%; height: 100%;"
-              class="siteBackgroundcurrentOverlay"
-            ></div>
+            <div id="SITE_BACKGROUNDcurrentVideo" class="siteBackgroundcurrentVideo"></div>
+            <div id="SITE_BACKGROUND_currentOverlay_dupnj_desktop_bg" style="position: absolute; top: 0; width: 100%; height: 100%;" class="siteBackgroundcurrentOverlay"></div>
           </div>
         </div>
-        <div
-          id="SITE_ROOT"
-          class="SITE_ROOT"
-          style="width: 100%; min-width: 980px; padding-bottom: 0; top: 0;"
-          aria-hidden="false"
-        >
+        <div id="SITE_ROOT" class="SITE_ROOT" style="width: 100%; min-width: 980px; padding-bottom: 0; top: 0;" aria-hidden="false">
           <div id="masterPage" class="mesh-layout" data-mesh-layout="grid">
             <header
               data-is-absolute-layout="false"
@@ -2928,43 +2666,18 @@
               data-state="fixedPosition transition-allowed"
               data-site-width="980"
               data-header-top="0"
-              style="
-                position: fixed;
-                margin-top: 0;
-                top: 0;
-                z-index: 48;
-                left: 0;
-                margin-left: 0;
-                width: 100%;
-                min-width: 980px;
-                bottom: ;
-                right: ;
-              "
+              style="position: fixed; margin-top: 0; top: 0; z-index: 48; left: 0; margin-left: 0; width: 100%; min-width: 980px; bottom: ; right: ;"
               class="style-im3g1qvp"
               id="SITE_HEADER"
             >
-              <div
-                style="left: 0; width: 100%;"
-                id="SITE_HEADERscreenWidthBackground"
-                class="style-im3g1qvpscreenWidthBackground"
-              >
+              <div style="left: 0; width: 100%;" id="SITE_HEADERscreenWidthBackground" class="style-im3g1qvpscreenWidthBackground">
                 <div class="style-im3g1qvp_bg"></div>
               </div>
-              <div
-                id="SITE_HEADERcenteredContent"
-                class="style-im3g1qvpcenteredContent"
-              >
-                <div
-                  style="margin-left: calc((100% - 980px) / 2); width: 980px;"
-                  id="SITE_HEADERbg"
-                  class="style-im3g1qvpbg"
-                >
+              <div id="SITE_HEADERcenteredContent" class="style-im3g1qvpcenteredContent">
+                <div style="margin-left: calc((100% - 980px) / 2); width: 980px;" id="SITE_HEADERbg" class="style-im3g1qvpbg">
                   <div class="style-im3g1qvp_bg-center"></div>
                 </div>
-                <div
-                  id="SITE_HEADERinlineContent"
-                  class="style-im3g1qvpinlineContent"
-                >
+                <div id="SITE_HEADERinlineContent" class="style-im3g1qvpinlineContent">
                   <style id="SITE_HEADER-mesh-styles">
                     #SITE_HEADERinlineContent {
                       height: auto;
@@ -3012,75 +2725,30 @@
                       pointer-events: auto;
                     }
 
-                    #SITE_HEADERinlineContent-gridContainer
-                      > [id$="-rotated-wrapper"] {
+                    #SITE_HEADERinlineContent-gridContainer > [id$="-rotated-wrapper"] {
                       pointer-events: none;
                     }
 
-                    #SITE_HEADERinlineContent-gridContainer
-                      > [id$="-rotated-wrapper"]
-                      > * {
+                    #SITE_HEADERinlineContent-gridContainer > [id$="-rotated-wrapper"] > * {
                       pointer-events: auto;
                     }
                   </style>
-                  <div
-                    id="SITE_HEADERinlineContent-gridWrapper"
-                    data-mesh-internal="true"
-                  >
-                    <div
-                      id="SITE_HEADERinlineContent-gridContainer"
-                      data-mesh-internal="true"
-                    >
-                      <div
-                        data-packed="true"
-                        style="
-                          top: ;
-                          bottom: ;
-                          left: ;
-                          right: ;
-                          width: 503px;
-                          height: auto;
-                          position: ;
-                          pointer-events: none;
-                        "
-                        class="txtNew"
-                        id="comp-im4lb0tt"
-                      >
+                  <div id="SITE_HEADERinlineContent-gridWrapper" data-mesh-internal="true">
+                    <div id="SITE_HEADERinlineContent-gridContainer" data-mesh-internal="true">
+                      <div data-packed="true" style="top: ; bottom: ; left: ; right: ; width: 503px; height: auto; position: ; pointer-events: none;" class="txtNew" id="comp-im4lb0tt">
                         <h1 class="font_0">
                           <span style="font-weight: normal;"
                             ><span style="font-family: corben, serif;"
-                              ><a href="index.html" target="_self"
-                                ><span style="letter-spacing: 0.2em;"
-                                  >CRYSTAL ELECTRA | PAINTER</span
-                                ></a
-                              ></span
+                              ><a href="index.html" target="_self"><span style="letter-spacing: 0.2em;">CRYSTAL ELECTRA | PAINTER</span></a></span
                             ></span
                           >
                         </h1>
                       </div>
-                      <div
-                        data-packed="true"
-                        style="
-                          top: ;
-                          bottom: ;
-                          left: ;
-                          right: ;
-                          width: 364px;
-                          height: auto;
-                          position: ;
-                          pointer-events: none;
-                        "
-                        class="txtNew"
-                        id="comp-k3b5aasp"
-                      >
+                      <div data-packed="true" style="top: ; bottom: ; left: ; right: ; width: 364px; height: auto; position: ; pointer-events: none;" class="txtNew" id="comp-k3b5aasp">
                         <h1 class="font_0" style="text-align: right;">
                           <span style="font-weight: normal;"
                             ><span style="font-family: corben, serif;"
-                              ><a href="callto:+1 (236) 979-5400" target="_self"
-                                ><span style="letter-spacing: 0.2em;"
-                                  >CALL (236) 979-5400&nbsp;</span
-                                ></a
-                              ></span
+                              ><a href="callto:+1 (236) 979-5400" target="_self"><span style="letter-spacing: 0.2em;">CALL (236) 979-5400&nbsp;</span></a></span
                             ></span
                           >
                         </h1>
@@ -3090,72 +2758,24 @@
                 </div>
               </div>
             </header>
-            <div
-              id="SITE_HEADER-placeholder"
-              style="height: 68px; display: block;"
-            ></div>
+            <div id="SITE_HEADER-placeholder" style="height: 68px; display: block;"></div>
             <main
               tabindex="-1"
               data-is-mobile="false"
               data-is-mesh="true"
               data-site-width="980"
-              style="
-                left: 0;
-                margin-left: 0;
-                width: 100%;
-                min-width: 980px;
-                top: 0;
-                bottom: ;
-                right: ;
-                position: ;
-              "
+              style="left: 0; margin-left: 0; width: 100%; min-width: 980px; top: 0; bottom: ; right: ; position: ;"
               class="pc1"
               data-state=""
               id="PAGES_CONTAINER"
             >
-              <div
-                style="left: 0;"
-                id="PAGES_CONTAINERscreenWidthBackground"
-                class="pc1screenWidthBackground"
-              ></div>
-              <div
-                style="position: relative;"
-                id="PAGES_CONTAINERcenteredContent"
-                class="pc1centeredContent"
-              >
-                <div
-                  style="display: none;"
-                  id="PAGES_CONTAINERbg"
-                  class="pc1bg"
-                ></div>
-                <div
-                  style="position: relative;"
-                  id="PAGES_CONTAINERinlineContent"
-                  class="pc1inlineContent"
-                >
+              <div style="left: 0;" id="PAGES_CONTAINERscreenWidthBackground" class="pc1screenWidthBackground"></div>
+              <div style="position: relative;" id="PAGES_CONTAINERcenteredContent" class="pc1centeredContent">
+                <div style="display: none;" id="PAGES_CONTAINERbg" class="pc1bg"></div>
+                <div style="position: relative;" id="PAGES_CONTAINERinlineContent" class="pc1inlineContent">
                   <div style="width: 100%;">
-                    <div
-                      data-ismobile="false"
-                      data-is-mesh-layout="true"
-                      style="
-                        height: 100%;
-                        left: 0;
-                        position: relative;
-                        top: ;
-                        bottom: ;
-                        right: ;
-                      "
-                      class="p1"
-                      id="dupnj"
-                    >
-                      <div
-                        style="
-                          margin-left: calc((100% - 980px) / 2);
-                          width: 980px;
-                        "
-                        id="dupnjbg"
-                        class="p1bg"
-                      ></div>
+                    <div data-ismobile="false" data-is-mesh-layout="true" style="height: 100%; left: 0; position: relative; top: ; bottom: ; right: ;" class="p1" id="dupnj">
+                      <div style="margin-left: calc((100% - 980px) / 2); width: 980px;" id="dupnjbg" class="p1bg"></div>
                       <div class="p1inlineContent" id="dupnjinlineContent">
                         <style id="dupnj-mesh-styles">
                           #dupnjinlineContent {
@@ -3224,37 +2844,18 @@
                             pointer-events: auto;
                           }
 
-                          #dupnjinlineContent-gridContainer
-                            > [id$="-rotated-wrapper"] {
+                          #dupnjinlineContent-gridContainer > [id$="-rotated-wrapper"] {
                             pointer-events: none;
                           }
 
-                          #dupnjinlineContent-gridContainer
-                            > [id$="-rotated-wrapper"]
-                            > * {
+                          #dupnjinlineContent-gridContainer > [id$="-rotated-wrapper"] > * {
                             pointer-events: auto;
                           }
                         </style>
-                        <div
-                          id="dupnjinlineContent-gridWrapper"
-                          data-mesh-internal="true"
-                        >
-                          <div
-                            id="dupnjinlineContent-gridContainer"
-                            data-mesh-internal="true"
-                          >
+                        <div id="dupnjinlineContent-gridWrapper" data-mesh-internal="true">
+                          <div id="dupnjinlineContent-gridContainer" data-mesh-internal="true">
                             <section
-                              style="
-                                left: 0;
-                                width: 100%;
-                                min-width: 980px;
-                                height: auto;
-                                top: ;
-                                bottom: ;
-                                right: ;
-                                position: ;
-                                margin-left: 0;
-                              "
+                              style="left: 0; width: 100%; min-width: 980px; height: auto; top: ; bottom: ; right: ; position: ; margin-left: 0;"
                               data-responsive="true"
                               data-is-screen-width="true"
                               data-col-margin="0"
@@ -3263,18 +2864,7 @@
                               id="comp-im4k4phy"
                             >
                               <div
-                                style="
-                                  position: absolute;
-                                  top: 0;
-                                  width: calc(100% - 0px);
-                                  height: 100%;
-                                  overflow: hidden;
-                                  pointer-events: auto;
-                                  min-width: 980px;
-                                  left: 0;
-                                  right: 0;
-                                  bottom: 0;
-                                "
+                                style="position: absolute; top: 0; width: calc(100% - 0px); height: 100%; overflow: hidden; pointer-events: auto; min-width: 980px; left: 0; right: 0; bottom: 0;"
                                 data-page-id="dupnj"
                                 data-enable-video="true"
                                 data-bg-effect-name=""
@@ -3285,40 +2875,15 @@
                                 class="strc1balata"
                                 id="comp-im4k4phybalata"
                               >
-                                <div
-                                  style="
-                                    position: absolute;
-                                    width: 100%;
-                                    height: 100%;
-                                    top: 0;
-                                    background-color: transparent;
-                                  "
-                                  class="bgColor"
-                                  id="comp-im4k4phybalatabgcolor"
-                                >
+                                <div style="position: absolute; width: 100%; height: 100%; top: 0; background-color: transparent;" class="bgColor" id="comp-im4k4phybalatabgcolor">
                                   <div
-                                    style="
-                                      width: 100%;
-                                      height: 100%;
-                                      position: absolute;
-                                      top: 0;
-                                      background-image: ;
-                                      opacity: 1;
-                                    "
+                                    style="width: 100%; height: 100%; position: absolute; top: 0; background-image: ; opacity: 1;"
                                     id="comp-im4k4phybalatabgcoloroverlay"
                                     class="bgColoroverlay"
                                   ></div>
                                 </div>
                               </div>
-                              <div
-                                style="
-                                  position: relative;
-                                  width: calc(100% - 0px);
-                                  min-width: 980px;
-                                "
-                                id="comp-im4k4phyinlineContent"
-                                class="strc1inlineContent"
-                              >
+                              <div style="position: relative; width: calc(100% - 0px); min-width: 980px;" id="comp-im4k4phyinlineContent" class="strc1inlineContent">
                                 <div
                                   style="
                                     position: relative;
@@ -3341,18 +2906,7 @@
                                   id="mediais6dqtcw3"
                                 >
                                   <div
-                                    style="
-                                      position: absolute;
-                                      top: 0;
-                                      width: 100%;
-                                      height: 100%;
-                                      overflow: hidden;
-                                      pointer-events: none;
-                                      clip: rect(0, auto, auto, 0);
-                                      left: 0;
-                                      right: 0;
-                                      bottom: 0;
-                                    "
+                                    style="position: absolute; top: 0; width: 100%; height: 100%; overflow: hidden; pointer-events: none; clip: rect(0, auto, auto, 0); left: 0; right: 0; bottom: 0;"
                                     data-page-id="dupnj"
                                     data-enable-video="true"
                                     data-bg-effect-name="BackgroundParallax"
@@ -3363,41 +2917,15 @@
                                     class="strc1balata"
                                     id="mediais6dqtcw3balata"
                                   >
-                                    <div
-                                      style="
-                                        position: absolute;
-                                        width: 100%;
-                                        height: 100%;
-                                        top: 0;
-                                        background-color: rgba(47, 46, 46, 1);
-                                      "
-                                      class="bgColor"
-                                      id="mediais6dqtcw3balatabgcolor"
-                                    >
+                                    <div style="position: absolute; width: 100%; height: 100%; top: 0; background-color: rgba(47, 46, 46, 1);" class="bgColor" id="mediais6dqtcw3balatabgcolor">
                                       <div
-                                        style="
-                                          width: 100%;
-                                          height: 100%;
-                                          position: absolute;
-                                          top: 0;
-                                          background-image: ;
-                                          opacity: 1;
-                                        "
+                                        style="width: 100%; height: 100%; position: absolute; top: 0; background-image: ; opacity: 1;"
                                         id="mediais6dqtcw3balatabgcoloroverlay"
                                         class="bgColoroverlay"
                                       ></div>
                                     </div>
                                   </div>
-                                  <div
-                                    style="
-                                      width: 100%;
-                                      position: relative;
-                                      top: 0;
-                                      bottom: 0;
-                                    "
-                                    class="strc1inlineContent"
-                                    id="mediais6dqtcw3inlineContent"
-                                  >
+                                  <div style="width: 100%; position: relative; top: 0; bottom: 0;" class="strc1inlineContent" id="mediais6dqtcw3inlineContent">
                                     <style id="mediais6dqtcw3-mesh-styles">
                                       #mediais6dqtcw3inlineContent {
                                         height: auto;
@@ -3427,8 +2955,7 @@
 
                                       #comp-im4mhk9u {
                                         position: relative;
-                                        margin: 153px 0px 10px
-                                          calc((100% - 980px) * 0.5);
+                                        margin: 153px 0px 10px calc((100% - 980px) * 0.5);
                                         left: 0px;
                                         grid-area: 1 / 1 / 2 / 2;
                                         justify-self: start;
@@ -3439,75 +2966,26 @@
                                         position: relative;
                                       }
                                     </style>
-                                    <div
-                                      id="mediais6dqtcw3inlineContent-gridWrapper"
-                                      data-mesh-internal="true"
-                                    >
-                                      <div
-                                        id="mediais6dqtcw3inlineContent-gridContainer"
-                                        data-mesh-internal="true"
-                                      >
+                                    <div id="mediais6dqtcw3inlineContent-gridWrapper" data-mesh-internal="true">
+                                      <div id="mediais6dqtcw3inlineContent-gridContainer" data-mesh-internal="true">
                                         <div
                                           data-packed="true"
-                                          style="
-                                            top: ;
-                                            bottom: ;
-                                            left: ;
-                                            right: ;
-                                            width: 980px;
-                                            height: auto;
-                                            position: ;
-                                            pointer-events: none;
-                                          "
+                                          style="top: ; bottom: ; left: ; right: ; width: 980px; height: auto; position: ; pointer-events: none;"
                                           class="txtNew"
                                           id="comp-im4mhk9u"
                                         >
-                                          <h2
-                                            class="font_2"
-                                            style="
-                                              font-size: 58px;
-                                              line-height: 1em;
-                                              text-align: center;
-                                            "
-                                          >
+                                          <h2 class="font_2" style="font-size: 58px; line-height: 1em; text-align: center;">
                                             <span class="color_11"
                                               ><span style="font-size: 58px;"
-                                                ><span
-                                                  style="
-                                                    font-family: corben, serif;
-                                                  "
-                                                  ><span
-                                                    style="
-                                                      letter-spacing: 0.2em;
-                                                    "
-                                                    >The Art of
-                                                  </span></span
-                                                ></span
+                                                ><span style="font-family: corben, serif;"><span style="letter-spacing: 0.2em;">The Art of </span></span></span
                                               ></span
                                             >
                                           </h2>
 
-                                          <h2
-                                            class="font_2"
-                                            style="
-                                              font-size: 58px;
-                                              line-height: 1em;
-                                              text-align: center;
-                                            "
-                                          >
+                                          <h2 class="font_2" style="font-size: 58px; line-height: 1em; text-align: center;">
                                             <span class="color_11"
                                               ><span style="font-size: 58px;"
-                                                ><span
-                                                  style="
-                                                    font-family: corben, serif;
-                                                  "
-                                                  ><span
-                                                    style="
-                                                      letter-spacing: 0.2em;
-                                                    "
-                                                    >Crystal Deshaies</span
-                                                  ></span
-                                                ></span
+                                                ><span style="font-family: corben, serif;"><span style="letter-spacing: 0.2em;">Crystal Deshaies</span></span></span
                                               ></span
                                             >
                                           </h2>
@@ -3519,17 +2997,7 @@
                               </div>
                             </section>
                             <section
-                              style="
-                                left: 0;
-                                width: 100%;
-                                min-width: 980px;
-                                height: auto;
-                                top: ;
-                                bottom: ;
-                                right: ;
-                                position: ;
-                                margin-left: 0;
-                              "
+                              style="left: 0; width: 100%; min-width: 980px; height: auto; top: ; bottom: ; right: ; position: ; margin-left: 0;"
                               data-responsive="true"
                               data-is-screen-width="true"
                               data-col-margin="0"
@@ -3538,18 +3006,7 @@
                               id="comp-im4k4pi4"
                             >
                               <div
-                                style="
-                                  position: absolute;
-                                  top: 0;
-                                  width: calc(100% - 0px);
-                                  height: 100%;
-                                  overflow: hidden;
-                                  pointer-events: auto;
-                                  min-width: 980px;
-                                  left: 0;
-                                  right: 0;
-                                  bottom: 0;
-                                "
+                                style="position: absolute; top: 0; width: calc(100% - 0px); height: 100%; overflow: hidden; pointer-events: auto; min-width: 980px; left: 0; right: 0; bottom: 0;"
                                 data-page-id="dupnj"
                                 data-enable-video="true"
                                 data-bg-effect-name=""
@@ -3560,40 +3017,15 @@
                                 class="strc1balata"
                                 id="comp-im4k4pi4balata"
                               >
-                                <div
-                                  style="
-                                    position: absolute;
-                                    width: 100%;
-                                    height: 100%;
-                                    top: 0;
-                                    background-color: transparent;
-                                  "
-                                  class="bgColor"
-                                  id="comp-im4k4pi4balatabgcolor"
-                                >
+                                <div style="position: absolute; width: 100%; height: 100%; top: 0; background-color: transparent;" class="bgColor" id="comp-im4k4pi4balatabgcolor">
                                   <div
-                                    style="
-                                      width: 100%;
-                                      height: 100%;
-                                      position: absolute;
-                                      top: 0;
-                                      background-image: ;
-                                      opacity: 1;
-                                    "
+                                    style="width: 100%; height: 100%; position: absolute; top: 0; background-image: ; opacity: 1;"
                                     id="comp-im4k4pi4balatabgcoloroverlay"
                                     class="bgColoroverlay"
                                   ></div>
                                 </div>
                               </div>
-                              <div
-                                style="
-                                  position: relative;
-                                  width: calc(100% - 0px);
-                                  min-width: 980px;
-                                "
-                                id="comp-im4k4pi4inlineContent"
-                                class="strc1inlineContent"
-                              >
+                              <div style="position: relative; width: calc(100% - 0px); min-width: 980px;" id="comp-im4k4pi4inlineContent" class="strc1inlineContent">
                                 <div
                                   style="
                                     position: relative;
@@ -3616,17 +3048,7 @@
                                   id="mediais6dqtcw9"
                                 >
                                   <div
-                                    style="
-                                      position: absolute;
-                                      top: 0;
-                                      width: 100%;
-                                      height: 100%;
-                                      overflow: hidden;
-                                      pointer-events: auto;
-                                      left: 0;
-                                      right: 0;
-                                      bottom: 0;
-                                    "
+                                    style="position: absolute; top: 0; width: 100%; height: 100%; overflow: hidden; pointer-events: auto; left: 0; right: 0; bottom: 0;"
                                     data-page-id="dupnj"
                                     data-enable-video="true"
                                     data-bg-effect-name=""
@@ -3637,46 +3059,15 @@
                                     class="strc1balata"
                                     id="mediais6dqtcw9balata"
                                   >
-                                    <div
-                                      style="
-                                        position: absolute;
-                                        width: 100%;
-                                        height: 100%;
-                                        top: 0;
-                                        background-color: rgba(
-                                          255,
-                                          255,
-                                          255,
-                                          1
-                                        );
-                                      "
-                                      class="bgColor"
-                                      id="mediais6dqtcw9balatabgcolor"
-                                    >
+                                    <div style="position: absolute; width: 100%; height: 100%; top: 0; background-color: rgba(255, 255, 255, 1);" class="bgColor" id="mediais6dqtcw9balatabgcolor">
                                       <div
-                                        style="
-                                          width: 100%;
-                                          height: 100%;
-                                          position: absolute;
-                                          top: 0;
-                                          background-image: ;
-                                          opacity: 1;
-                                        "
+                                        style="width: 100%; height: 100%; position: absolute; top: 0; background-image: ; opacity: 1;"
                                         id="mediais6dqtcw9balatabgcoloroverlay"
                                         class="bgColoroverlay"
                                       ></div>
                                     </div>
                                   </div>
-                                  <div
-                                    style="
-                                      width: 100%;
-                                      position: relative;
-                                      top: 0;
-                                      bottom: 0;
-                                    "
-                                    class="strc1inlineContent"
-                                    id="mediais6dqtcw9inlineContent"
-                                  >
+                                  <div style="width: 100%; position: relative; top: 0; bottom: 0;" class="strc1inlineContent" id="mediais6dqtcw9inlineContent">
                                     <style id="mediais6dqtcw9-mesh-styles">
                                       #mediais6dqtcw9inlineContent {
                                         height: auto;
@@ -3699,107 +3090,52 @@
                                       }
 
                                       #comp-im4k5k86 {
-                                        position: relative;
-                                        margin: 47px 0px 30px
-                                          calc((100% - 980px) * 0.5);
-                                        left: 94px;
-                                        grid-area: 1 / 1 / 2 / 2;
-                                        justify-self: start;
-                                        align-self: start;
+                                        width: 80%;
+
+                                        padding: 1em 6em;
+                                        margin: 0 auto;
                                       }
 
                                       #mediais6dqtcw9centeredContent {
                                         position: relative;
                                       }
 
-                                      #mediais6dqtcw9inlineContent-gridContainer
-                                        > * {
+                                      #mediais6dqtcw9inlineContent-gridContainer > * {
                                         pointer-events: auto;
                                       }
 
-                                      #mediais6dqtcw9inlineContent-gridContainer
-                                        > [id$="-rotated-wrapper"] {
+                                      #mediais6dqtcw9inlineContent-gridContainer > [id$="-rotated-wrapper"] {
                                         pointer-events: none;
                                       }
 
-                                      #mediais6dqtcw9inlineContent-gridContainer
-                                        > [id$="-rotated-wrapper"]
-                                        > * {
+                                      #mediais6dqtcw9inlineContent-gridContainer > [id$="-rotated-wrapper"] > * {
                                         pointer-events: auto;
                                       }
                                     </style>
-                                    <div
-                                      id="mediais6dqtcw9inlineContent-gridWrapper"
-                                      data-mesh-internal="true"
-                                    >
-                                      <div
-                                        id="mediais6dqtcw9inlineContent-gridContainer"
-                                        data-mesh-internal="true"
-                                      >
+                                    <div id="mediais6dqtcw9inlineContent-gridWrapper" data-mesh-internal="true">
+                                      <div id="mediais6dqtcw9inlineContent-gridContainer" data-mesh-internal="true">
                                         <div
                                           data-packed="true"
-                                          style="
-                                            top: ;
-                                            bottom: ;
-                                            left: ;
-                                            right: ;
-                                            width: 793px;
-                                            height: auto;
-                                            position: ;
-                                            pointer-events: none;
-                                          "
+                                          style="top: ; bottom: ; left: ; right: ; width: 793px; height: auto; position: ; pointer-events: none;"
                                           class="txtNew"
                                           id="comp-im4k5k86"
                                         >
-                                          <p
-                                            class="font_8"
-                                            style="
-                                              font-size: 18px;
-                                              text-align: center;
-                                            "
-                                          >
+                                          <p class="font_8" style="font-size: 18px; text-align: justify;">
                                             <span style="font-size: 18px;"
-                                              >Crystal has a background as
-                                              an&nbsp;architectural design
-                                              consultant. She&nbsp;began
-                                              creating home and garden portraits
-                                              in the mid 80's.<br />
+                                              >Crystal has a background as an&nbsp;architectural design consultant. She&nbsp;began creating home and garden portraits in the mid 80's.<br />
                                               <br />
-                                              Crystal has taught art and
-                                              creativity courses at
-                                              post-secondary institutions and
-                                              businesses
-                                              throughout&nbsp;Vancouver,
-                                              including Capilano College and The
+                                              Crystal has taught art and creativity courses at post-secondary institutions and businesses throughout&nbsp;Vancouver, including Capilano College and The
                                               University of British Columbia.<br />
                                               <br />
-                                              She has won several arts awards,
-                                              including a Senior BC Cultural
-                                              Fund Award, and a Canada Council
-                                              Touring Award. She has a Bachelor
-                                              of Music from the University of
-                                              British Columbia, where she also
-                                              studied Fine Art and
-                                              Architecture.<br />
+                                              She has won several arts awards, including a Senior BC Cultural Fund Award, and a Canada Council Touring Award. She has a Bachelor of Music from the
+                                              University of British Columbia, where she also studied Fine Art and Architecture.<br />
                                               &nbsp;<br />
-                                              Her work has been widely covered
-                                              in the media and she's exhibited
-                                              in Vancouver and beyond.</span
+                                              Her work has been widely covered in the media and she's exhibited in Vancouver and beyond.</span
                                             >
                                           </p>
 
-                                          <p
-                                            class="font_8"
-                                            style="
-                                              font-size: 18px;
-                                              text-align: center;
-                                            "
-                                          >
-                                            <span style="font-size: 18px;"
-                                              ><span class="wixGuard"
-                                                >​</span
-                                              ></span
-                                            >
+                                          <p class="font_8" style="font-size: 18px; text-align: center;">
+                                            <span style="font-size: 18px;"><span class="wixGuard">​</span></span>
                                           </p>
                                         </div>
                                       </div>
@@ -3810,45 +3146,138 @@
                             </section>
                             <style>
                               #art_gallery {
+                                font-family: corbin, serif;
+                                font-size: 14px;
                                 margin: 0 auto;
-                                max-width: 80%;
+                                padding: 0 2em 0 2em;
                               }
 
-                              #art_gallery img {
-                                width: 90%;
-                                padding: 5em 5em 5em 5em;
+                              #art_gallery section {
+                                width: auto;
+                                padding: 5em 2em 0em 2em;
                                 margin: 0 auto;
+                              }
+
+                              #art_gallery section h2 {
+                                letter-spacing: 0.2em;
+                                text-transform: uppercase;
+                                font-size: 3em;
+                                font-weight: 100;
+                              }
+
+                              #art_gallery section img {
+                                width: 98%;
+                                padding: 1em 1em 1em 1em;
+                                margin: 0 auto;
+                              }
+
+                              #art_gallery section p {
+                                font-family: "open sans", sans-serif;
+                                font-size: 1.3em;
+                                margin: 0 5em 0 5em;
+                                text-align: justify;
                               }
                             </style>
                             <div id="art_gallery">
                               <center>
-                                <img
-                                  src="images/art/GrammaVanDemanHouse3jpg.jpg"
-                                />
-                                <img
-                                  src="images/art/e3fc8d_10e8457029c4471f968d2e1abc88a702_mv2_d_3600_4050_s_4_2.jpg"
-                                />
-                                <img
-                                  src="images/art/e3fc8d_4cd1a10488824174b1512129d9277fe5_mv2_d_5627_3949_s_4_2.jpg"
-                                />
-                                <img
-                                  src="images/art/e3fc8d_8dd2d225f6fb46fcbd86c76753e88434_mv2.jpg"
-                                />
-                                <img
-                                  src="images/art/e3fc8d_a6cbec97df8c468782473aed536d2dff_mv2.jpg"
-                                />
-                                <img
-                                  src="images/art/e3fc8d_b7e2adb52c02451fadc47bb3ed338ecb_mv2_d_2007_2291_s_2.jpg"
-                                />
-                                <img
-                                  src="images/art/e3fc8d_df53d8b4e68f4a5fa70edee274a44663_mv2_d_5000_2750_s_4_2.jpg"
-                                />
-                                <img
-                                  src="images/art/e3fc8d_fdd31f8933cb403694d0241404c5c9c3_mv2_d_5000_2753_s_4_2.jpg"
-                                />
-                                <img
-                                  src="images/art/Anchorage Gate.jpg.239912800.jpg"
-                                />
+                                <section>
+                                  <h2>Vancouver residence</h2>
+                                  <img src="images/art/Dec2109MarpoleMa.jpg" />
+                                  <p>
+                                    A busy home, they are involved in business and the community and have a great love for culture and Art. As you can see, the children love to play in their
+                                    landscaping, and love to study the violin and piano. They love their home and wanted to show it off and meaningful belongings. There was a golf cart too, but it was
+                                    moved behind the tree... The artist created the perspective to show both the front and back of the house, showing two views "in one".
+                                  </p>
+                                </section>
+
+                                <section>
+                                  <h2>Garage band</h2>
+                                  <img src="images/art/doghouseforcaportfolio_bak.jpg" />
+                                  <p>
+                                    There are two views in one composition which the artist paints to show more things and make an interesting composition. There are many meaningful things appearing,
+                                    including Gerry Garcia, because the cient is a "Dead Head".
+                                  </p>
+                                </section>
+
+                                <section>
+                                  <h2>Mother and Daughter</h2>
+                                  <img src="images/art/Flo_mom94.jpg" />
+                                  <p>
+                                    This is my lovely dentist. She wanted to have a portrait done on Kits Beach with her mom.
+                                  </p>
+                                </section>
+
+                                <section>
+                                  <h2>South Surrey Home</h2>
+                                  <img src="images/art/lisa.jpg" />
+                                  <p>
+                                    Here is Lisa's garden. She appears with her two daughters along with the garden in the forest in this lovely neighbourhood, along with other individuals who live
+                                    here too. Crystal This is a home in South Surrey with a beautiful forested garden. Gramma is there with her two grandaughters, along with other residents as well.
+                                    This was a busy B&B. If you look closely you can see some of the interior we wanted to include with the table where many delivious meals were served.
+                                  </p>
+                                </section>
+
+                                <section>
+                                  <h2>Shaughnessay</h2>
+                                  <img src="images/art/shaughnessay.jpg" />
+                                  <p>
+                                    This is a home of a proud heritage home. She and her brother grew up in the neighbourhood and are very happy the home has been zoned in order to preserve some of
+                                    our beloved older houses. Again, often "play" with perspective to show off the house people, garden to it's best face. The garden is pampered and they love their
+                                    Dahlias.
+                                  </p>
+                                </section>
+
+                                <section>
+                                  <h2>Okanagan residence on the lake</h2>
+                                  <img src="images/art/naramata.jpg" />
+                                  <p>
+                                    Here are "two views in one perspective": the view from the house looking out, which appears above; we see the other shore of the lake; and looking to the house. The
+                                    family's adorable Labradoodle looks to the house, the outdoor pizza oven appears twice, once a little closer to see the family enjoying their dinner next to the
+                                    outdoor pizza oven and barbeque, and good luck to be in such amazing place. at dinner next to the outdoor pizza oven, also included the entrance to the driveway,
+                                    with Quail couple with three babies!
+                                  </p>
+                                </section>
+
+                                <section>
+                                  <h2>Red House</h2>
+                                  <img src="images/art/red_house.jpg" />
+                                  <p>
+                                    This is a heritage home near Fraser Street. The owners preferred a "leaf garden" they said, and the gentleman of the house is a musician. Here is his favourite
+                                    Gisbon. He's just gone in to say hello to talk to his wife about something he just thought about.
+                                  </p>
+                                </section>
+
+                                <section>
+                                  <h2>Gramma Van Deman House</h2>
+                                  <img src="images/art/GrammaVanDemanHouse3jpg.jpg" />
+                                  <p></p>
+                                </section>
+
+                                <section>
+                                  <h2>Lila Mansion</h2>
+                                  <img src="images/art/e3fc8d_8dd2d225f6fb46fcbd86c76753e88434_mv2.jpg" />
+                                  <p></p>
+                                </section>
+
+                                <section>
+                                  <h2>Corey</h2>
+                                  <img src="images/art/e3fc8d_a6cbec97df8c468782473aed536d2dff_mv2.jpg" />
+                                  <p>
+                                    Portrait of the beautiful boy Corey, age eight, 1977.
+                                  </p>
+                                </section>
+
+                                <section>
+                                  <h2>Jay</h2>
+                                  <img src="images/art/e3fc8d_b7e2adb52c02451fadc47bb3ed338ecb_mv2_d_2007_2291_s_2.jpg" />
+                                  <p>A portrait of a beautiful daughter. A blessing to all who know her, a lace-maker and master weaver, wife and wise woman.</p>
+                                </section>
+
+                                <section>
+                                  <h2>Anchorage Gate</h2>
+                                  <img src="images/art/Anchorage Gate.jpg.239912800.jpg" />
+                                  <p></p>
+                                </section>
                               </center>
                             </div>
                             <div
@@ -3859,29 +3288,12 @@
                               data-should-use-flex="true"
                               data-width="264"
                               data-height="40"
-                              style="
-                                top: ;
-                                bottom: ;
-                                left: ;
-                                right: ;
-                                width: 264px;
-                                height: 40px;
-                                position: ;
-                                margin-bottom: 100px;
-                              "
+                              style="top: ; bottom: ; left: ; right: ; width: 264px; height: 40px; position: ; margin-bottom: 100px;"
                               class="style-k3nzajoe"
                               data-state="desktop shouldUseFlex center"
                             >
-                              <a
-                                href="index.html"
-                                target="_self"
-                                id="comp-k3nzajlslink"
-                                class="g-transparent-a style-k3nzajoelink"
-                                ><span
-                                  id="comp-k3nzajlslabel"
-                                  class="style-k3nzajoelabel"
-                                  >Back To Art Classes</span
-                                ></a
+                              <a href="index.html" target="_self" id="comp-k3nzajlslink" class="g-transparent-a style-k3nzajoelink"
+                                ><span id="comp-k3nzajlslabel" class="style-k3nzajoelabel">Back To Art Classes</span></a
                               >
                             </div>
                           </div>
@@ -3927,48 +3339,20 @@
                   pointer-events: auto;
                 }
 
-                #soapAfterPagesContainerinlineContent-gridContainer
-                  > [id$="-rotated-wrapper"] {
+                #soapAfterPagesContainerinlineContent-gridContainer > [id$="-rotated-wrapper"] {
                   pointer-events: none;
                 }
 
-                #soapAfterPagesContainerinlineContent-gridContainer
-                  > [id$="-rotated-wrapper"]
-                  > * {
+                #soapAfterPagesContainerinlineContent-gridContainer > [id$="-rotated-wrapper"] > * {
                   pointer-events: auto;
                 }
               </style>
-              <div
-                id="soapAfterPagesContainerinlineContent-gridContainer"
-                data-mesh-internal="true"
-              >
-                <div
-                  style="
-                    width: ;
-                    height: ;
-                    top: ;
-                    bottom: ;
-                    left: ;
-                    right: ;
-                    position: ;
-                  "
-                  class="style-jjnykzow"
-                  id="CONTROLLER_COMP_CUSTOM_ID"
-                ></div>
+              <div id="soapAfterPagesContainerinlineContent-gridContainer" data-mesh-internal="true">
+                <div style="width: ; height: ; top: ; bottom: ; left: ; right: ; position: ;" class="style-jjnykzow" id="CONTROLLER_COMP_CUSTOM_ID"></div>
               </div>
             </div>
             <footer
-              style="
-                bottom: auto;
-                overflow: hidden;
-                left: 0;
-                margin-left: 0;
-                width: 100%;
-                min-width: 980px;
-                top: ;
-                right: ;
-                position: ;
-              "
+              style="bottom: auto; overflow: hidden; left: 0; margin-left: 0; width: 100%; min-width: 980px; top: ; right: ; position: ;"
               class="fc2_footer fc2"
               tabindex="-1"
               data-site-width="980"
@@ -3978,23 +3362,11 @@
               data-state=" "
               id="SITE_FOOTER"
             >
-              <div
-                style="left: 0; width: 100%;"
-                id="SITE_FOOTERscreenWidthBackground"
-                class="fc2screenWidthBackground"
-              >
+              <div style="left: 0; width: 100%;" id="SITE_FOOTERscreenWidthBackground" class="fc2screenWidthBackground">
                 <div class="fc2_bg"></div>
               </div>
-              <div
-                style="width: 100%;"
-                id="SITE_FOOTERcenteredContent"
-                class="fc2centeredContent"
-              >
-                <div
-                  style="margin-left: calc((100% - 980px) / 2); width: 980px;"
-                  id="SITE_FOOTERbg"
-                  class="fc2bg"
-                >
+              <div style="width: 100%;" id="SITE_FOOTERcenteredContent" class="fc2centeredContent">
+                <div style="margin-left: calc((100% - 980px) / 2); width: 980px;" id="SITE_FOOTERbg" class="fc2bg">
                   <div class="fc2_bg-center"></div>
                 </div>
                 <div id="SITE_FOOTERinlineContent" class="fc2inlineContent">
@@ -4036,49 +3408,19 @@
                       pointer-events: auto;
                     }
 
-                    #SITE_FOOTERinlineContent-gridContainer
-                      > [id$="-rotated-wrapper"] {
+                    #SITE_FOOTERinlineContent-gridContainer > [id$="-rotated-wrapper"] {
                       pointer-events: none;
                     }
 
-                    #SITE_FOOTERinlineContent-gridContainer
-                      > [id$="-rotated-wrapper"]
-                      > * {
+                    #SITE_FOOTERinlineContent-gridContainer > [id$="-rotated-wrapper"] > * {
                       pointer-events: auto;
                     }
                   </style>
-                  <div
-                    id="SITE_FOOTERinlineContent-gridWrapper"
-                    data-mesh-internal="true"
-                  >
-                    <div
-                      id="SITE_FOOTERinlineContent-gridContainer"
-                      data-mesh-internal="true"
-                    >
-                      <div
-                        data-packed="true"
-                        style="
-                          top: ;
-                          bottom: ;
-                          left: ;
-                          right: ;
-                          width: 532px;
-                          height: auto;
-                          position: ;
-                          pointer-events: none;
-                        "
-                        class="txtNew"
-                        id="comp-ikzfsfcb"
-                      >
-                        <p
-                          class="font_7"
-                          style="font-size: 13px; line-height: 1.5em;"
-                        >
-                          <span class="color_13"
-                            ><span style="font-size: 13px;"
-                              >© 2018 Crystal Electra. All Right Reserved.</span
-                            ></span
-                          >
+                  <div id="SITE_FOOTERinlineContent-gridWrapper" data-mesh-internal="true">
+                    <div id="SITE_FOOTERinlineContent-gridContainer" data-mesh-internal="true">
+                      <div data-packed="true" style="top: ; bottom: ; left: ; right: ; width: 532px; height: auto; position: ; pointer-events: none;" class="txtNew" id="comp-ikzfsfcb">
+                        <p class="font_7" style="font-size: 13px; line-height: 1.5em;">
+                          <span class="color_13"><span style="font-size: 13px;">© 2018 Crystal Electra. All Right Reserved.</span></span>
                         </p>
                       </div>
                     </div>
@@ -4088,262 +3430,74 @@
             </footer>
           </div>
         </div>
-        <div id="aspectCompsContainer" class="siteAspectsContainer">
-          <div style="position: absolute;" id="popoverLayer"></div>
-          <wix-iframe
-            style="
-              top: ;
-              bottom: ;
-              left: ;
-              right: ;
-              position: ;
-              overflow: hidden;
-              visibility: hidden;
-            "
-            data-has-iframe="true"
-            data-src="https://apps.wix.com/members-area/app-worker?cacheKiller=1588452190574&amp;compId=tpaWorker_2808&amp;currency=CAD&amp;deviceType=desktop&amp;endpointType=worker&amp;instance=01zVEw0rVWC9F8HIOI9f0hW6ikUzJ8DQFLYZGd7yZRM.eyJpbnN0YW5jZUlkIjoiNDdjZDNhNDctM2IwMy00NDRhLTllMGYtZTIwMDM3NDYyNjJlIiwiYXBwRGVmSWQiOiIxNGNlMjhmNy03ZWIwLTM3NDUtMjJmOC0wNzRiMGUyNDAxZmIiLCJtZXRhU2l0ZUlkIjoiMjFhNTBlODQtMjM1NC00M2VjLTlhZTktODVlYWJjZjk0MzM5Iiwic2lnbkRhdGUiOiIyMDIwLTA1LTAyVDIxOjA1OjAyLjQ1MVoiLCJkZW1vTW9kZSI6ZmFsc2UsIm9yaWdpbkluc3RhbmNlSWQiOiIwYzE2MGM0ZC1kOTEyLTRlOTItYjE4Ny05Nzg4ZjQ2NGI2YTMiLCJhaWQiOiI2MGIxNDgwMy0yOTM2LTQ0ZTctYjUzOC0xNzg5YWIxYWZhZGEiLCJiaVRva2VuIjoiNjY2ODM0YzMtMTg1Ny0wN2E2LTA0ZTYtNjdlYThiYmY2NTE3Iiwic2l0ZU93bmVySWQiOiJlM2ZjOGQxMC0wMDcyLTQ4YWItYmQ3Mi04MmMzOTA5YTBjNWUifQ&amp;locale=en&amp;siteRevision=82&amp;tz=America%2FVancouver&amp;viewMode=site&amp;viewerCompId=tpaWorker_2808"
-            data-is-tpa="true"
-            data-app-definition-id="14ce28f7-7eb0-3745-22f8-074b0e2401fb"
-            id="tpaWorker_2808"
-            class="s_DtaksTPAWidgetSkin"
-            ><iframe
-              data-src="https://apps.wix.com/members-area/app-worker?cacheKiller=1588452190574&amp;compId=tpaWorker_2808&amp;currency=CAD&amp;deviceType=desktop&amp;endpointType=worker&amp;instance=01zVEw0rVWC9F8HIOI9f0hW6ikUzJ8DQFLYZGd7yZRM.eyJpbnN0YW5jZUlkIjoiNDdjZDNhNDctM2IwMy00NDRhLTllMGYtZTIwMDM3NDYyNjJlIiwiYXBwRGVmSWQiOiIxNGNlMjhmNy03ZWIwLTM3NDUtMjJmOC0wNzRiMGUyNDAxZmIiLCJtZXRhU2l0ZUlkIjoiMjFhNTBlODQtMjM1NC00M2VjLTlhZTktODVlYWJjZjk0MzM5Iiwic2lnbkRhdGUiOiIyMDIwLTA1LTAyVDIxOjA1OjAyLjQ1MVoiLCJkZW1vTW9kZSI6ZmFsc2UsIm9yaWdpbkluc3RhbmNlSWQiOiIwYzE2MGM0ZC1kOTEyLTRlOTItYjE4Ny05Nzg4ZjQ2NGI2YTMiLCJhaWQiOiI2MGIxNDgwMy0yOTM2LTQ0ZTctYjUzOC0xNzg5YWIxYWZhZGEiLCJiaVRva2VuIjoiNjY2ODM0YzMtMTg1Ny0wN2E2LTA0ZTYtNjdlYThiYmY2NTE3Iiwic2l0ZU93bmVySWQiOiJlM2ZjOGQxMC0wMDcyLTQ4YWItYmQ3Mi04MmMzOTA5YTBjNWUifQ&amp;locale=en&amp;siteRevision=82&amp;tz=America%2FVancouver&amp;viewMode=site&amp;viewerCompId=tpaWorker_2808"
-              scrolling="no"
-              frameborder="0"
-              allow="autoplay; camera; microphone; geolocation; vr"
-              allowtransparency="true"
-              allowfullscreen=""
-              name="tpaWorker_2808"
-              style="display: none; position: absolute; z-index: ;"
-              title="Profile Card"
-              aria-label="Profile Card"
-              id="tpaWorker_2808iframe"
-              class="s_DtaksTPAWidgetSkiniframe"
-            ></iframe>
-            <div
-              id="tpaWorker_2808overlay"
-              class="s_DtaksTPAWidgetSkinoverlay"
-            ></div>
-          </wix-iframe>
-        </div>
-        <div
-          id="SCROLL_TO_BOTTOM"
-          tabindex="-1"
-          aria-label="bottom of page"
-          role="region"
-          style="height: 0;"
-        ></div>
+
+        <div id="SCROLL_TO_BOTTOM" tabindex="-1" aria-label="bottom of page" role="region" style="height: 0;"></div>
       </div>
-      <div
-        class="font-ruler-container"
-        style="
-          overflow: hidden;
-          visibility: hidden;
-          max-height: 0;
-          max-width: 0;
-          position: absolute;
-        "
-      >
+      <div class="font-ruler-container" style="overflow: hidden; visibility: hidden; max-height: 0; max-width: 0; position: absolute;">
         <style>
           .font-ruler-content::after {
             content: "@#$%%^&*~IAO";
           }
         </style>
-        <div
-          style="
-            position: absolute;
-            overflow: hidden;
-            font-size: 1200px;
-            left: -2000px;
-            visibility: hidden;
-          "
-        >
-          <div
-            style="position: relative; white-space: nowrap; font-family: serif;"
-          >
-            <div
-              style="
-                position: absolute;
-                width: 100%;
-                height: 100%;
-                overflow: hidden;
-              "
-            >
+        <div style="position: absolute; overflow: hidden; font-size: 1200px; left: -2000px; visibility: hidden;">
+          <div style="position: relative; white-space: nowrap; font-family: serif;">
+            <div style="position: absolute; width: 100%; height: 100%; overflow: hidden;">
               <div></div>
             </div>
             <span class="font-ruler-content"></span>
           </div>
         </div>
-        <div
-          style="
-            position: absolute;
-            overflow: hidden;
-            font-size: 1200px;
-            left: -2000px;
-            visibility: hidden;
-          "
-        >
-          <div
-            style="position: relative; white-space: nowrap; font-family: serif;"
-          >
-            <div
-              style="
-                position: absolute;
-                width: 100%;
-                height: 100%;
-                overflow: hidden;
-              "
-            >
+        <div style="position: absolute; overflow: hidden; font-size: 1200px; left: -2000px; visibility: hidden;">
+          <div style="position: relative; white-space: nowrap; font-family: serif;">
+            <div style="position: absolute; width: 100%; height: 100%; overflow: hidden;">
               <div></div>
             </div>
             <span class="font-ruler-content"></span>
           </div>
         </div>
-        <div
-          style="
-            position: absolute;
-            overflow: hidden;
-            font-size: 1200px;
-            left: -2000px;
-            visibility: hidden;
-          "
-        >
-          <div
-            style="position: relative; white-space: nowrap; font-family: serif;"
-          >
-            <div
-              style="
-                position: absolute;
-                width: 100%;
-                height: 100%;
-                overflow: hidden;
-              "
-            >
+        <div style="position: absolute; overflow: hidden; font-size: 1200px; left: -2000px; visibility: hidden;">
+          <div style="position: relative; white-space: nowrap; font-family: serif;">
+            <div style="position: absolute; width: 100%; height: 100%; overflow: hidden;">
               <div></div>
             </div>
             <span class="font-ruler-content"></span>
           </div>
         </div>
-        <div
-          style="
-            position: absolute;
-            overflow: hidden;
-            font-size: 1200px;
-            left: -2000px;
-            visibility: hidden;
-          "
-        >
-          <div
-            style="position: relative; white-space: nowrap; font-family: serif;"
-          >
-            <div
-              style="
-                position: absolute;
-                width: 100%;
-                height: 100%;
-                overflow: hidden;
-              "
-            >
+        <div style="position: absolute; overflow: hidden; font-size: 1200px; left: -2000px; visibility: hidden;">
+          <div style="position: relative; white-space: nowrap; font-family: serif;">
+            <div style="position: absolute; width: 100%; height: 100%; overflow: hidden;">
               <div></div>
             </div>
             <span class="font-ruler-content"></span>
           </div>
         </div>
-        <div
-          style="
-            position: absolute;
-            overflow: hidden;
-            font-size: 1200px;
-            left: -2000px;
-            visibility: hidden;
-          "
-        >
-          <div
-            style="position: relative; white-space: nowrap; font-family: serif;"
-          >
-            <div
-              style="
-                position: absolute;
-                width: 100%;
-                height: 100%;
-                overflow: hidden;
-              "
-            >
+        <div style="position: absolute; overflow: hidden; font-size: 1200px; left: -2000px; visibility: hidden;">
+          <div style="position: relative; white-space: nowrap; font-family: serif;">
+            <div style="position: absolute; width: 100%; height: 100%; overflow: hidden;">
               <div></div>
             </div>
             <span class="font-ruler-content"></span>
           </div>
         </div>
-        <div
-          style="
-            position: absolute;
-            overflow: hidden;
-            font-size: 1200px;
-            left: -2000px;
-            visibility: hidden;
-          "
-        >
-          <div
-            style="position: relative; white-space: nowrap; font-family: serif;"
-          >
-            <div
-              style="
-                position: absolute;
-                width: 100%;
-                height: 100%;
-                overflow: hidden;
-              "
-            >
+        <div style="position: absolute; overflow: hidden; font-size: 1200px; left: -2000px; visibility: hidden;">
+          <div style="position: relative; white-space: nowrap; font-family: serif;">
+            <div style="position: absolute; width: 100%; height: 100%; overflow: hidden;">
               <div></div>
             </div>
             <span class="font-ruler-content"></span>
           </div>
         </div>
-        <div
-          style="
-            position: absolute;
-            overflow: hidden;
-            font-size: 1200px;
-            left: -2000px;
-            visibility: hidden;
-          "
-        >
-          <div
-            style="position: relative; white-space: nowrap; font-family: serif;"
-          >
-            <div
-              style="
-                position: absolute;
-                width: 100%;
-                height: 100%;
-                overflow: hidden;
-              "
-            >
+        <div style="position: absolute; overflow: hidden; font-size: 1200px; left: -2000px; visibility: hidden;">
+          <div style="position: relative; white-space: nowrap; font-family: serif;">
+            <div style="position: absolute; width: 100%; height: 100%; overflow: hidden;">
               <div></div>
             </div>
             <span class="font-ruler-content"></span>
           </div>
         </div>
-        <div
-          style="
-            position: absolute;
-            overflow: hidden;
-            font-size: 1200px;
-            left: -2000px;
-            visibility: hidden;
-          "
-        >
-          <div
-            style="position: relative; white-space: nowrap; font-family: serif;"
-          >
-            <div
-              style="
-                position: absolute;
-                width: 100%;
-                height: 100%;
-                overflow: hidden;
-              "
-            >
+        <div style="position: absolute; overflow: hidden; font-size: 1200px; left: -2000px; visibility: hidden;">
+          <div style="position: relative; white-space: nowrap; font-family: serif;">
+            <div style="position: absolute; width: 100%; height: 100%; overflow: hidden;">
               <div></div>
             </div>
             <span class="font-ruler-content"></span>
