@@ -69,9 +69,7 @@ p {
 }
 
 .cta-button {
-  background-color: #FF6B6B;
   border-radius: 5px;
-  color: white;
   cursor: pointer;
   display: block;
   font-size: 1.125rem;
@@ -83,9 +81,6 @@ p {
   width: fit-content;
 }
 
-.cta-button:hover {
-  background-color: #CC5C5C;
-}
 
 .footer {
   border-top: 1px solid #EEE;
@@ -112,6 +107,7 @@ p {
 .top-nav {
   background-color: #FFFFFF;
   width: 100%;
+  margin-top: 10px;
 }
 
 .nav-content {
@@ -124,15 +120,29 @@ p {
 }
 
 .nav-link {
-  padding: 10px 0;
+  padding: 10px;
   text-decoration: none;
   color: #333;
   font-size: 1.125rem;
+  border-radius: 5px;
+
 }
 
 .nav-link:hover {
   background-color: #f2f2f2;
 }
+
+
+.purple {
+  background-color: #800080;
+  color: white;
+}
+
+.purple:hover {
+  background-color: #5c0a5c;
+  color: white;
+}
+
 
 .quotes {
   position: relative;
