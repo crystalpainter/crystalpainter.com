@@ -37,7 +37,7 @@ a {
   font-family: 'Playfair Display', serif;
   font-size: calc(20px + (24 - 20) * ((100vw - 300px) / (1600 - 300)));
   letter-spacing: 0.1em;
-  color: #008080;
+  color: #006400;
   text-decoration: none;
 }
 
@@ -58,7 +58,7 @@ a {
 h1,
 h2 {
   font-family: 'Playfair Display', serif;
-  color: #008080;
+  color: #006400;
 }
 
 p {
@@ -158,7 +158,7 @@ p {
 .quotes::before,
 .quotes::after {
   font-size: 30px;
-  color: #008080;
+  color: #006400;
 }
 
 .quotes::before {
