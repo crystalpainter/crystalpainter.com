@@ -31,14 +31,19 @@ header {
   margin: auto;
 }
 
-.site-title,
-.phone-link,
 a {
   font-family: 'Playfair Display', serif;
-  font-size: calc(20px + (24 - 20) * ((100vw - 300px) / (1600 - 300)));
   letter-spacing: 0.1em;
   color: #006400;
   text-decoration: none;
+}
+
+.site-title {
+  font-size: calc(26px + (24 - 20) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.phone-link {
+  font-size: calc(16px + (24 - 20) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .container {
